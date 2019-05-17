@@ -41,8 +41,10 @@ public class DialogManager : MonoBehaviour
         artwork.sprite = this.characters[0].artwork;
         dialogText.text = this.dialogs[index];
 
-        if(autoInteract)
+        if (autoInteract) {
+            controlAnimator.SetBool("Show", false);
             animator.SetBool("Show", true);
+        }
         else
             animator.SetBool("Interact", true);
     }
