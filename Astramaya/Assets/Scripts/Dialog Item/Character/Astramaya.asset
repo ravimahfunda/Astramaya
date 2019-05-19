@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Astramaya
   m_EditorClassIdentifier: 
   name: Astramaya
-  artwork: {fileID: 21300000, guid: 883a614865bdb1e4d8c3cdd6cc31a2bb, type: 3}
+  artwork: {fileID: 21300004, guid: 6feedd9ed409a354a933be9b79b45af3, type: 3}
   description: Syalalela

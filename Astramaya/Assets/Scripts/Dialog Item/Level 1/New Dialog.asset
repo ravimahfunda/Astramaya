@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19de80fffc6c0df4cacbc688d41eee7f, type: 3}
+  m_Name: New Dialog
+  m_EditorClassIdentifier: 
+  charaters:
+  - {fileID: 11400000, guid: 69cf2ec9ead3b0447b9a1cd7fe02d71f, type: 2}
+  - {fileID: 11400000, guid: 75ba08ad2da284d47bc58f219623c28c, type: 2}
+  sequence:
+  - '#1'
+  - Astramaya...
+  - Astramaua...
+  - '#0'
+  - Siapa disana? Tunjukan dirimu!
+  - '#1'
+  - Lihat kemari, aku adalah pohon besar. Kau bisa menyebutku Papatutaka
+  - '#0'
+  - Papatutaka?
+  - '#1'
+  - Betul, kau tidak punya banyak waktu. Hutan ini akan lenyap. Kau harus segera pergi
+    dari sini!
+  - Pergilah ke bagian terdalam hutan ini dan kalahkan penjaga hutan ini. Dia akan
+    mengeluarkan mu.
+  - '#0'
+  - Baiklah, aku rasa aku akan mempercayaimu untuk sekarang
+  - '#1'
+  - Berhati-hatilah di jalan

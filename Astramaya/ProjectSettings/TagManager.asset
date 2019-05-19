@@ -8,6 +8,7 @@ TagManager:
   - Platform
   - Ocean
   - DialogPanel
+  - Game Manager
   layers:
   - Default
   - TransparentFX

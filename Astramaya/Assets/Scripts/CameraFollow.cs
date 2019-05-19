@@ -14,6 +14,10 @@ public class CameraFollow : MonoBehaviour
     public float bottomClamp;
     public float topClamp;
 
+    public void ChangeFocus(Transform target) {
+        this.target = target;
+    }
+
     void FixedUpdate()
     {
         Vector3 clampedPosition = new Vector3(

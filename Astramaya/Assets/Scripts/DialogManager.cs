@@ -17,6 +17,8 @@ public class DialogManager : MonoBehaviour
     private List<CharacterObject> characters;
     private int index = 0;
 
+    public bool isOnPortal;
+
     // Start is called before the first frame update
     void Start()
     {
