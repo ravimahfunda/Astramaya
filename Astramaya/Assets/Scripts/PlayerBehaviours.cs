@@ -6,6 +6,10 @@ public class PlayerBehaviours : MonoBehaviour
 {
     public Joystick joystick;
 
+    public AudioSource footstepAudio;
+    public AudioSource shootAudio;
+    public AudioSource oceanAudio;
+
     // Attack System
     public Transform bulletSpawnPoint;
     public GameObject arrow;
@@ -26,11 +30,13 @@ public class PlayerBehaviours : MonoBehaviour
     float vMove = 0;
 
     Rigidbody2D rb;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -52,16 +58,18 @@ public class PlayerBehaviours : MonoBehaviour
 
         if (joystick.Horizontal >= .2f || Input.GetAxis("Horizontal") > 0)
         {
+            if (!footstepAudio.isPlaying && isGrounded) footstepAudio.Play();
             if (!isFaceRight) {
                 transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
                 isFaceRight = true;
             }
 
             hMove = isSwim ? swimSpeed : movementSpeed;
-            GetComponent<Animator>().SetBool("IsRunning", true);
+            animator.SetBool("IsMoving", true);
         }
         else if (joystick.Horizontal <= -.2f || Input.GetAxis("Horizontal") < 0)
         {
+            if(!footstepAudio.isPlaying && isGrounded)footstepAudio.Play();
             if (isFaceRight)
             {
                 transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
@@ -69,11 +77,12 @@ public class PlayerBehaviours : MonoBehaviour
             }
 
             hMove = isSwim ? -swimSpeed : -movementSpeed;
-            GetComponent<Animator>().SetBool("IsRunning", true);
+            animator.SetBool("IsMoving", true);
         }
         else
         {
-            GetComponent<Animator>().SetBool("IsRunning", false);
+            footstepAudio.Stop();
+            animator.SetBool("IsMoving", false);
             hMove = 0;
         }
 
@@ -83,14 +92,15 @@ public class PlayerBehaviours : MonoBehaviour
     public void Shoot(){
         if (allowShoot) {
             allowShoot = false;
-
+            shootAudio.Play();
+            animator.SetTrigger("Shoot");
             Vector2 shootForce = transform.right * shootPower;
 
+            GameObject gb = Instantiate(arrow, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
             if (!isFaceRight) {
                 shootForce *= -1;
+                gb.transform.localScale = new Vector2(-1f, 1f);
             }
-
-            GameObject gb = Instantiate(arrow, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
             gb.GetComponent<Rigidbody2D>().AddForce(shootForce, ForceMode2D.Impulse);
             Destroy(gb, 1f);
 
@@ -106,8 +116,10 @@ public class PlayerBehaviours : MonoBehaviour
     public void Jump() {
         if (jumpCount < jumpLimit)
         {
+            isGrounded = false;
             rb.velocity = Vector2.up * jumpPower;
             jumpCount++;
+            animator.SetBool("IsJumping", true);
         }
     }
 
@@ -117,6 +129,7 @@ public class PlayerBehaviours : MonoBehaviour
             case "Platform": {
                 isGrounded = true;
                 jumpCount = 0;
+                animator.SetBool("IsJumping", false);
                 break;
             }
         }

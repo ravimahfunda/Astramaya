@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: ec388465ab4f3c943894bb30073bfa07
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: astramaya idle2_GO/astramaya idle2_GO
+    100002: astramaya idle2_GO/astramaya idle2_GO/Background
+    100004: astramaya idle2_GO/astramaya idle2_GO/badan
+    100006: astramaya idle2_GO/astramaya idle2_GO/bone_1
+    100008: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2
+    100010: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3
+    100012: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3/bone_4
+    100014: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3/bone_4/bone_15
+    100016: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3/bone_4/bone_15/bone_16
+    100018: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_5
+    100020: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_5/bone_6
+    100022: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_7
+    100024: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_7/bone_8
+    100026: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_17
+    100028: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_17/bone_18
+    100030: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_9
+    100032: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_9/bone_10
+    100034: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_12
+    100036: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_12/bone_13
+    100038: astramaya idle2_GO/astramaya idle2_GO/jubah
+    100040: astramaya idle2_GO/astramaya idle2_GO/kaki kanan
+    100042: astramaya idle2_GO/astramaya idle2_GO/kaki kiri
+    100044: astramaya idle2_GO/astramaya idle2_GO/kantong panah
+    100046: astramaya idle2_GO/astramaya idle2_GO/kepala
+    100048: astramaya idle2_GO/astramaya idle2_GO/panah
+    100050: astramaya idle2_GO/astramaya idle2_GO/rambut
+    100052: astramaya idle2_GO/astramaya idle2_GO/rok kanan
+    100054: astramaya idle2_GO/astramaya idle2_GO/rok kiri
+    100056: astramaya idle2_GO/astramaya idle2_GO/tangan kanan
+    100058: astramaya idle2_GO/astramaya idle2_GO/tangan kiri
+    400000: astramaya idle2_GO/astramaya idle2_GO/Transform
+    400002: astramaya idle2_GO/astramaya idle2_GO/Background/Transform
+    400004: astramaya idle2_GO/astramaya idle2_GO/badan/Transform
+    400006: astramaya idle2_GO/astramaya idle2_GO/bone_1/Transform
+    400008: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/Transform
+    400010: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3/Transform
+    400012: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3/bone_4/Transform
+    400014: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3/bone_4/bone_15/Transform
+    400016: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_3/bone_4/bone_15/bone_16/Transform
+    400018: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_5/Transform
+    400020: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_5/bone_6/Transform
+    400022: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_7/Transform
+    400024: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_7/bone_8/Transform
+    400026: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_17/Transform
+    400028: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_2/bone_17/bone_18/Transform
+    400030: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_9/Transform
+    400032: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_9/bone_10/Transform
+    400034: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_12/Transform
+    400036: astramaya idle2_GO/astramaya idle2_GO/bone_1/bone_12/bone_13/Transform
+    400038: astramaya idle2_GO/astramaya idle2_GO/jubah/Transform
+    400040: astramaya idle2_GO/astramaya idle2_GO/kaki kanan/Transform
+    400042: astramaya idle2_GO/astramaya idle2_GO/kaki kiri/Transform
+    400044: astramaya idle2_GO/astramaya idle2_GO/kantong panah/Transform
+    400046: astramaya idle2_GO/astramaya idle2_GO/kepala/Transform
+    400048: astramaya idle2_GO/astramaya idle2_GO/panah/Transform
+    400050: astramaya idle2_GO/astramaya idle2_GO/rambut/Transform
+    400052: astramaya idle2_GO/astramaya idle2_GO/rok kanan/Transform
+    400054: astramaya idle2_GO/astramaya idle2_GO/rok kiri/Transform
+    400056: astramaya idle2_GO/astramaya idle2_GO/tangan kanan/Transform
+    400058: astramaya idle2_GO/astramaya idle2_GO/tangan kiri/Transform
+    2800000: astramaya idle2
+    21300000: 1329672dd6e309748a01e587b427f634
+    21300002: 5a698ec193037354cbab1d9b5144d592
+    21300004: 8ccfe588cb2d0c04f8242d2b1b31a4b1
+    21300006: b016265914120374a88d586ca254ca25
+    21300008: ea1e3f3f62b01434eb2de7d31295a146
+    21300010: bceb976bd1f62af4e95a9f0204e5ece1
+    21300012: 00761f2af992da34182603f6a7b47ccf
+    21300014: fc3e29984cb7e6b498a753344af6acb4
+    21300016: 0f9816cede8730e46b35d9353b11aad2
+    100100000: astramaya idle2_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: astramaya idle2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 3508
+      height: 2480
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: astramaya idle2_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 7132
+      width: 300
+      height: 840
+    spriteID: 1329672dd6e309748a01e587b427f634
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 7132}
+  - name: astramaya idle2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 6300
+      width: 336
+      height: 832
+    spriteID: 5a698ec193037354cbab1d9b5144d592
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 6300}
+  - name: astramaya idle2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 5560
+      width: 432
+      height: 736
+    spriteID: 8ccfe588cb2d0c04f8242d2b1b31a4b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 5560}
+  - name: astramaya idle2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5012
+      width: 644
+      height: 544
+    spriteID: b016265914120374a88d586ca254ca25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 5012}
+  - name: astramaya idle2_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 5012
+      width: 264
+      height: 448
+    spriteID: ea1e3f3f62b01434eb2de7d31295a146
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 648, y: 5012}
+  - name: astramaya idle2_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 3740
+      width: 664
+      height: 1268
+    spriteID: bceb976bd1f62af4e95a9f0204e5ece1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 3740}
+  - name: astramaya idle2_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 668
+      y: 3744
+      width: 252
+      height: 1144
+    spriteID: 00761f2af992da34182603f6a7b47ccf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 668, y: 3744}
+  - name: astramaya idle2_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4080
+      height: 3740
+    spriteID: fc3e29984cb7e6b498a753344af6acb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  - name: astramaya idle2_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3520
+      y: 12
+      width: 568
+      height: 928
+    spriteID: 0f9816cede8730e46b35d9353b11aad2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3520, y: 12}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 3508, y: 2480}
+  textureActualWidth: 4096
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: kepala
+    spriteName: kepala
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a1926c7bf2cbd024b8d3f17c971fba64
+    layerID: 405
+    mosaicPosition: {x: 4, y: 5014}
+  - name: tangan kanan
+    spriteName: tangan kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c78fbc021a23ac24fa097f194014361e
+    layerID: 339
+    mosaicPosition: {x: 4, y: 7136}
+  - name: badan
+    spriteName: badan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f9523e5c489aec7409640ab21f52b5c6
+    layerID: 334
+    mosaicPosition: {x: 4, y: 5560}
+  - name: rok kanan
+    spriteName: rok kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4bc8b805c0fce2e469a9db052d65caf4
+    layerID: 410
+    mosaicPosition: {x: 3520, y: 4}
+  - name: rok kiri
+    spriteName: rok kiri
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9275a2fc51a0b384690a7cac28e36e96
+    layerID: 296
+    mosaicPosition: {x: 3520, y: 947}
+  - name: tangan kiri
+    spriteName: tangan kiri
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cd66859692234ac43b278f5a565228a2
+    layerID: 266
+    mosaicPosition: {x: 4, y: 6303}
+  - name: kantong panah
+    spriteName: kantong panah
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 016d148ed22785a478da7741bee6209a
+    layerID: 261
+    mosaicPosition: {x: 670, y: 3743}
+  - name: jubah
+    spriteName: jubah
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 18795fbc3c91ecd48921bb763b6b6516
+    layerID: 252
+    mosaicPosition: {x: 4, y: 2492}
+  - name: panah
+    spriteName: panah
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 966706677d18a374991e40fb8b0ce949
+    layerID: 251
+    mosaicPosition: {x: 4, y: 3743}
+  - name: rambut
+    spriteName: rambut
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f6a2f5be80362964c917b743fd986291
+    layerID: 231
+    mosaicPosition: {x: 1077, y: 2492}
+  - name: kaki kiri
+    spriteName: kaki kiri
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 07f9178f147ee424bbec70984771286c
+    layerID: 230
+    mosaicPosition: {x: 652, y: 5014}
+  - name: kaki kanan
+    spriteName: kaki kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8ea81f7ae55ce3047b4a51a1c46f13b2
+    layerID: 226
+    mosaicPosition: {x: 3520, y: 1883}
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2a601a6e163b15a4dac613cef6ab6cef
+    layerID: 1
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones:
+    - name: bone_1
+      position: {x: 1792.3851, y: 1236.2852, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7237279, w: 0.6900855}
+      length: 140.2894
+      parentId: -1
+    - name: bone_2
+      position: {x: 140.28943, y: -0.000007276546, z: 0}
+      rotation: {x: 0, y: 0, z: -0.028060777, w: 0.99960625}
+      length: 390.37817
+      parentId: 0
+    - name: bone_3
+      position: {x: 390.37814, y: 0.00002068366, z: 0}
+      rotation: {x: 0, y: 0, z: 0.059567317, w: 0.9982243}
+      length: 90.63849
+      parentId: 1
+    - name: bone_4
+      position: {x: 90.638535, y: -0.00002727352, z: 0}
+      rotation: {x: 0, y: 0, z: -0.09752492, w: 0.9952331}
+      length: 354.9353
+      parentId: 2
+    - name: bone_5
+      position: {x: 299.01437, y: 149.36464, z: 0}
+      rotation: {x: 0, y: -0, z: 0.9996776, w: 0.025391666}
+      length: 337.5754
+      parentId: 1
+    - name: bone_6
+      position: {x: 337.57547, y: 0.00009051285, z: 0}
+      rotation: {x: 0, y: 0, z: 0.24464248, w: 0.9696134}
+      length: 364.22266
+      parentId: 4
+    - name: bone_7
+      position: {x: 278.82547, y: -221.16667, z: 0}
+      rotation: {x: 0, y: -0, z: 0.9985271, w: 0.054255255}
+      length: 342.6655
+      parentId: 1
+    - name: bone_8
+      position: {x: 342.6655, y: 0.000030447081, z: 0}
+      rotation: {x: 0, y: 0, z: 0.35321602, w: 0.93554187}
+      length: 328.55078
+      parentId: 6
+    - name: bone_9
+      position: {x: -84.72728, y: 67.36222, z: 0}
+      rotation: {x: 0, y: -0, z: -0.99999905, w: 0.0014130628}
+      length: 411.36725
+      parentId: 0
+    - name: bone_10
+      position: {x: 411.36725, y: -0.0052111796, z: 0}
+      rotation: {x: 0, y: 0, z: -0.05459478, w: 0.99850863}
+      length: 620.9991
+      parentId: 8
+    - name: bone_12
+      position: {x: -86.765526, y: -119.84746, z: 0}
+      rotation: {x: 0, y: -0, z: -0.9976605, w: 0.068363555}
+      length: 381.91998
+      parentId: 0
+    - name: bone_13
+      position: {x: 381.9199, y: -0.00012143726, z: 0}
+      rotation: {x: 0, y: 0, z: -0.096155904, w: 0.9953663}
+      length: 647.82855
+      parentId: 10
+    - name: bone_15
+      position: {x: 219.29068, y: 124.990746, z: 0}
+      rotation: {x: 0, y: -0, z: 0.9421605, w: 0.3351621}
+      length: 356.13397
+      parentId: 3
+    - name: bone_16
+      position: {x: 356.13403, y: -0.00006778215, z: 0}
+      rotation: {x: 0, y: 0, z: -0.008569246, w: 0.99996334}
+      length: 415.0899
+      parentId: 12
+    - name: bone_17
+      position: {x: 352.125, y: 69.63425, z: 0}
+      rotation: {x: 0, y: -0, z: 0.9649592, w: 0.26240012}
+      length: 576.90204
+      parentId: 1
+    - name: bone_18
+      position: {x: 576.902, y: 0.00005882761, z: 0}
+      rotation: {x: 0, y: 0, z: 0.010208684, w: 0.9999479}
+      length: 440.7957
+      parentId: 14
+    parts:
+    - spritePosition:
+        x: 1429
+        y: 1821
+        width: 640
+        height: 538
+      spriteId: a1926c7bf2cbd024b8d3f17c971fba64
+      bones: 0200000003000000
+    - spritePosition:
+        x: 1566
+        y: 933
+        width: 293
+        height: 832
+      spriteId: c78fbc021a23ac24fa097f194014361e
+      bones: 0500000004000000
+    - spritePosition:
+        x: 1646
+        y: 1151
+        width: 427
+        height: 735
+      spriteId: f9523e5c489aec7409640ab21f52b5c6
+      bones: 0100000000000000
+    - spritePosition:
+        x: 1797
+        y: 434
+        width: 565
+        height: 935
+      spriteId: 4bc8b805c0fce2e469a9db052d65caf4
+      bones: 0b0000000a000000
+    - spritePosition:
+        x: 1308
+        y: 450
+        width: 564
+        height: 928
+      spriteId: 9275a2fc51a0b384690a7cac28e36e96
+      bones: 090000000800000000000000
+    - spritePosition:
+        x: 1915
+        y: 965
+        width: 329
+        height: 825
+      spriteId: cd66859692234ac43b278f5a565228a2
+      bones: 0700000006000000
+    - spritePosition:
+        x: 1488
+        y: 706
+        width: 249
+        height: 1143
+      spriteId: 016d148ed22785a478da7741bee6209a
+      bones: 01000000
+    - spritePosition:
+        x: 882
+        y: 586
+        width: 1065
+        height: 1243
+      spriteId: 18795fbc3c91ecd48921bb763b6b6516
+      bones: 0f000000020000000e00000001000000
+    - spritePosition:
+        x: 1835
+        y: 605
+        width: 805
+        height: 1164
+      spriteId: 966706677d18a374991e40fb8b0ce949
+      bones: 07000000
+    - spritePosition:
+        x: 866
+        y: 1331
+        width: 1075
+        height: 996
+      spriteId: f6a2f5be80362964c917b743fd986291
+      bones: 0d0000000c00000003000000
+    - spritePosition:
+        x: 1904
+        y: 95
+        width: 260
+        height: 445
+      spriteId: 07f9178f147ee424bbec70984771286c
+      bones: 0b000000
+    - spritePosition:
+        x: 1647
+        y: 86
+        width: 260
+        height: 445
+      spriteId: 8ea81f7ae55ce3047b4a51a1c46f13b2
+      bones: 09000000
+    dimension: {x: 0, y: 0}
+  boneGOs:
+  - go: {fileID: 100006, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 0
+  - go: {fileID: 100008, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 1
+  - go: {fileID: 100010, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 2
+  - go: {fileID: 100012, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 3
+  - go: {fileID: 100018, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 4
+  - go: {fileID: 100020, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 5
+  - go: {fileID: 100022, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 6
+  - go: {fileID: 100024, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 7
+  - go: {fileID: 100030, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 8
+  - go: {fileID: 100032, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 9
+  - go: {fileID: 100034, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 10
+  - go: {fileID: 100036, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 11
+  - go: {fileID: 100014, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 12
+  - go: {fileID: 100016, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 13
+  - go: {fileID: 100026, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 14
+  - go: {fileID: 100028, guid: ec388465ab4f3c943894bb30073bfa07, type: 3}
+    index: 15
+  generateGOHierarchy: 0
+  textureAssetName: astramaya idle2
+  prefabAssetName: astramaya idle2_GO
