@@ -21,25 +21,27 @@ public class Damagable : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (damagerTags.Contains(collision.gameObject.tag))
-        {
-            Damager damager = collision.gameObject.GetComponent<Damager>();
-            if (damager != null)
-            {
-                TakeDamage(damager.damage);
-            }
-        }
+        TakeDamage(collision.gameObject);
     }
 
-    public void TakeDamage(float amount) {
-        currentHealth -= amount;
+    public void TakeDamage(GameObject collision) {
+        
+        if (damagerTags.Contains(collision.tag))
+        {
+            Damager damager = collision.GetComponent<Damager>();
+            if (damager != null)
+            {
 
-        if (healthBar != null) {
-            healthBar.value = currentHealth / maxHealth;
+                currentHealth -= damager.damage;
+
+                if (healthBar != null)
+                {
+                    healthBar.value = currentHealth / maxHealth;
+                }
+                if(currentHealth <= 0) onDie.Invoke();
+            }
         }
-
-        onDie.Invoke();
     }
 }

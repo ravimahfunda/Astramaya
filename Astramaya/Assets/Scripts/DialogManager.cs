@@ -38,10 +38,8 @@ public class DialogManager : MonoBehaviour
         this.dialogs = dialogs;
         this.characters = characters;
 
-        index = 0;
-        nameText.text = this.characters[0].name;
-        artwork.sprite = this.characters[0].artwork;
-        dialogText.text = this.dialogs[index];
+        index = -1;
+        Next();
 
         if (autoInteract) {
             controlAnimator.SetBool("Show", false);

@@ -6,6 +6,13 @@ public class PlayerBehaviours : MonoBehaviour
 {
     public Joystick joystick;
 
+    // Attack System
+    public Transform bulletSpawnPoint;
+    public GameObject arrow;
+    public float shootPower;
+    public float attackDelay;
+    private bool allowShoot = true;
+
     public float movementSpeed;
     public float jumpPower;
     public float jumpLimit;
@@ -50,8 +57,8 @@ public class PlayerBehaviours : MonoBehaviour
                 isFaceRight = true;
             }
 
-            hMove = isSwim ? swimSpeed: movementSpeed;
-            GetComponent<Animator>().SetBool("IsRunning",true);
+            hMove = isSwim ? swimSpeed : movementSpeed;
+            GetComponent<Animator>().SetBool("IsRunning", true);
         }
         else if (joystick.Horizontal <= -.2f || Input.GetAxis("Horizontal") < 0)
         {
@@ -69,8 +76,31 @@ public class PlayerBehaviours : MonoBehaviour
             GetComponent<Animator>().SetBool("IsRunning", false);
             hMove = 0;
         }
-        
+
         rb.velocity = new Vector2(hMove, vMove);
+    }
+
+    public void Shoot(){
+        if (allowShoot) {
+            allowShoot = false;
+
+            Vector2 shootForce = transform.right * shootPower;
+
+            if (!isFaceRight) {
+                shootForce *= -1;
+            }
+
+            GameObject gb = Instantiate(arrow, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+            gb.GetComponent<Rigidbody2D>().AddForce(shootForce, ForceMode2D.Impulse);
+            Destroy(gb, 1f);
+
+            StartCoroutine(delayShoot());
+        }
+    }
+
+    IEnumerator delayShoot() {
+        yield return new WaitForSeconds(attackDelay);
+        allowShoot = true;
     }
 
     public void Jump() {

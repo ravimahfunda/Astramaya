@@ -9,6 +9,7 @@ TagManager:
   - Ocean
   - DialogPanel
   - Game Manager
+  - Arrow
   layers:
   - Default
   - TransparentFX

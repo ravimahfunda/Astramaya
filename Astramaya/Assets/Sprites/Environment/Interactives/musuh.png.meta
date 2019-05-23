@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: f5c85708a3d8b8b4793ea637a75c6ecb
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: musuh_0
+    21300002: musuh_1
+    21300004: musuh_2
+    21300006: musuh_3
+    21300008: musuh_4
+    21300010: musuh_5
+    21300012: musuh_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -45,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,7 +144,147 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: musuh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1016
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7410ab22dd52ff144ae531f49f330dd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musuh_1
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 0
+        width: 1016
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bc9c606f658944fa66d87557e18dd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musuh_2
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 0
+        width: 1016
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4faeb27b05e41f47982f9b9c3e1daf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musuh_3
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 0
+        width: 1016
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896f3fcdff85e2d4e9231f1ee590b78a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musuh_4
+      rect:
+        serializedVersion: 2
+        x: 4064
+        y: 0
+        width: 1016
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3076b96ceba652e4aba726f5e8ba75b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musuh_5
+      rect:
+        serializedVersion: 2
+        x: 5080
+        y: 0
+        width: 1016
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abe6b458f0a17347889a4ba701eddf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musuh_6
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 0
+        width: 1016
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0598428f985a38459971e6129ea89d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
