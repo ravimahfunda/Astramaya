@@ -5,13 +5,10 @@ using UnityEngine;
 
 public class LegacyManager : MonoBehaviour
 {
-    private string arcaCollected;
-    private int levelUnlocked;
 
     private void Start()
     {
-        levelUnlocked = PlayerPrefs.GetInt("LevelUnlocked");
-        arcaCollected = PlayerPrefs.GetString("ArcaCollected");
+
     }
 
     public void UnlockLevel(int level)
@@ -19,8 +16,13 @@ public class LegacyManager : MonoBehaviour
         PlayerPrefs.SetInt("LevelUnlocked",level);
     }
 
+    public int GetLevel()
+    {
+        return PlayerPrefs.GetInt("LevelUnlocked", 1);
+    }
+
     public void CollectArca(int index) {
-        StringBuilder builder = new StringBuilder(arcaCollected);
+        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected"));
         builder.Remove(index, 1);
         builder.Insert(index, "1");
 
@@ -29,6 +31,105 @@ public class LegacyManager : MonoBehaviour
 
     public bool CheckArcaCollected(int index)
     {
-        return arcaCollected[index].Equals("1");
+        return PlayerPrefs.GetString("ArcaCollected")[index].Equals("1");
+    }
+
+    /**
+     * ======================
+     * SETTINGS
+     * ======================
+     **/
+    public void SetSFXVolume(float volume) {
+        PlayerPrefs.SetFloat("SfxVolume", volume);
+    }
+
+    public float GetSFXVolume()
+    {
+        return PlayerPrefs.GetFloat("SfxVolume", 1);
+    }
+
+    public void SetBGMVolume(float volume)
+    {
+        PlayerPrefs.SetFloat("BgmVolume", volume);
+    }
+
+    public float GetBGMVolume()
+    {
+        return PlayerPrefs.GetFloat("BgmVolume", 1);
+    }
+
+    /**
+     * ======================
+     * GAMEPLAY AND UPGRADE
+     * ======================
+     **/
+    public int SetMaxArrow(int count)
+    {
+        PlayerPrefs.SetInt("MaxArrow", count);
+        return count;
+    }
+
+    public int GetMaxArrow()
+    {
+        return PlayerPrefs.GetInt("MaxArrow", 10);
+    }
+
+    public int SetDamage(int amount)
+    {
+        PlayerPrefs.SetInt("Damage", amount);
+        return amount;
+    }
+
+    public int GetDamage()
+    {
+        return PlayerPrefs.GetInt("Damage", 1);
+    }
+
+    public float SetAttackSpeed(float amount)
+    {
+        PlayerPrefs.SetFloat("AttackSpeed", amount);
+        return amount;
+    }
+
+    public float GetAttackSpeed()
+    {
+        return PlayerPrefs.GetFloat("AttackSpeed", 1f);
+    }
+
+    public int SetMaxHealth(int amount)
+    {
+        PlayerPrefs.SetInt("MaxHealth", amount);
+        return amount;
+    }
+
+    public int GetMaxHealth()
+    {
+        return PlayerPrefs.GetInt("MaxHealth", 10);
+    }
+
+    public int SetPotion(int amount)
+    {
+        PlayerPrefs.SetInt("Potion", amount);
+        return amount;
+    }
+
+    public int GetPotion()
+    {
+        return PlayerPrefs.GetInt("Potion", 0);
+    }
+
+    public int SetCoin(int amount)
+    {
+        PlayerPrefs.SetInt("Coin", amount);
+        return amount;
+    }
+
+    public int GetCoin()
+    {
+        return PlayerPrefs.GetInt("Coin", 0);
+    }
+
+    public void ResetData() {
+        PlayerPrefs.DeleteAll();
     }
 }
