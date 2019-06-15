@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 2dfa34b5b87fb4d4e9fb6648059a3c91
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: mantra_0
+    21300002: mantra_1
+    21300004: mantra_2
+    21300006: mantra_3
+    21300008: mantra_4
+    21300010: mantra_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -137,7 +143,127 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mantra_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 80
+        width: 1009
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ba182a077f4d64bbac9980713300b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantra_1
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 34
+        width: 1103
+        height: 1049
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51828f13203ce3844b2e6d6d68be861a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantra_2
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 47
+        width: 1096
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0ddf2b4a985a144b6583d89183629d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantra_3
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 40
+        width: 1096
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafdef7502797df4dbdc5fb2b6b18d2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantra_4
+      rect:
+        serializedVersion: 2
+        x: 4566
+        y: 13
+        width: 1097
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96999e9190de3924088b6230ecf05161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantra_5
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 0
+        width: 1103
+        height: 1043
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0424ed7b750380947bb53356ac95c94e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

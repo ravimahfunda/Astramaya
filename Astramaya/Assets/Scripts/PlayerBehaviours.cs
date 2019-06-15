@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerBehaviours : MonoBehaviour
 {
     public Joystick joystick;
+    public Slider ammoBar;
 
     public AudioSource footstepAudio;
     public AudioSource shootAudio;
@@ -15,6 +17,7 @@ public class PlayerBehaviours : MonoBehaviour
     public GameObject arrow;
     public float shootPower;
     public float attackDelay;
+    public int maxArrowAmmo;
     private bool allowShoot = true;
 
     public float movementSpeed;
@@ -35,6 +38,8 @@ public class PlayerBehaviours : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ammoBar.maxValue = maxArrowAmmo;
+        ammoBar.value = maxArrowAmmo;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
@@ -90,7 +95,8 @@ public class PlayerBehaviours : MonoBehaviour
     }
 
     public void Shoot(){
-        if (allowShoot) {
+        if (allowShoot && ammoBar.value > 0) {
+            ammoBar.value--;
             allowShoot = false;
             shootAudio.Play();
             animator.SetTrigger("Shoot");
@@ -144,7 +150,7 @@ public class PlayerBehaviours : MonoBehaviour
                     rb.gravityScale = .5F;
                     isSwim = true;
                     jumpCount = 0;
-                    GetComponent<SpriteRenderer>().color = new Color(155,253,255,255);
+                    animator.SetBool("IsSwim", true);
                     break;
                 }
         }
@@ -159,7 +165,7 @@ public class PlayerBehaviours : MonoBehaviour
                     rb.gravityScale = 1F;
                     isSwim = false;
                     jumpCount = 0;
-                    GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
+                    animator.SetBool("IsSwim", false);
                     break;
                 }
         }
