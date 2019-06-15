@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter 1.unity
     guid: 12ebf3cd4fc5e9344852e80d38c98a96
+  - enabled: 1
+    path: Assets/Scenes/Power Up.unity
+    guid: 52336f88068627140aec075026c23978
   m_configObjects: {}

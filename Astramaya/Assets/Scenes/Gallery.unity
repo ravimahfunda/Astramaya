@@ -170,8 +170,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7e6433ebcdc94e44ab826f192ef6392c, type: 3}
-    m_FontSize: 18
+    m_Font: {fileID: 12800000, guid: 11e095ee7f5a2954da26b3b6edd26d3a, type: 3}
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -182,7 +182,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Arca \nganesha i"
+  m_Text: 'Mundinglaya
+
+    Di Kusuma'
 --- !u!222 &47515832
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -227,7 +229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 31.900055, y: -21.000015}
+  m_AnchoredPosition: {x: 31.900055, y: -21}
   m_SizeDelta: {x: 56, y: 56}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &322880114
@@ -644,7 +646,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 503370959}
   m_OnClick:
     m_PersistentCalls:
@@ -675,14 +677,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fb131e9e389b4b649a86e57707377ae6, type: 3}
+  m_Sprite: {fileID: 21300010, guid: fb131e9e389b4b649a86e57707377ae6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1884,8 +1886,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
-  m_SizeDelta: {x: 183, y: 466}
+  m_AnchoredPosition: {x: 2.44, y: 0}
+  m_SizeDelta: {x: 180.56, y: 466}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1213429890
 MonoBehaviour:
@@ -1908,10 +1910,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: e0b6585c75079c24facce8d05213b56a, type: 3}
     m_FontSize: 16
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
@@ -1920,12 +1922,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
-    egestas ipsum vel facilisis. Sed finibus nulla non egestas vehicula. Suspendisse
-    potenti. Suspendisse tempus ac mauris vitae accumsan. Sed et nisi mi. Aenean vel
-    nibh nec metus auctor dignissim. Curabitur eu mauris ultrices, imperdiet quam
-    vitae, tempor dui. Pellentesque gravida nulla pretium lorem tincidunt blandit
-    a sed mi.
+  m_Text: "Mundinglaya Di Kusumah merupakan seorang pangeran dari Kerajaan\r\nPajajaran,
+    keturunan dari Prabu Siliwangi dan Ibu Padmawati. Merupakan seorang\r\nyang sangat
+    tampan dan kuat. Karena kelebihannya, ia hendak dicalonkan sebagai\r\npenerus
+    tahta kerajaan Prabu Siliwangi dan karena hal itu juga saudara laki-lakinya\r\nyang
+    tertua Guru Gantangan iri kepadanya, merasa tersaingi karena ia juga ingin\r\nmeneruskan
+    tahta Kerajaan Pajajaran."
 --- !u!222 &1213429891
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1992,13 +1994,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7e6433ebcdc94e44ab826f192ef6392c, type: 3}
-    m_FontSize: 32
+    m_Font: {fileID: 12800000, guid: 11e095ee7f5a2954da26b3b6edd26d3a, type: 3}
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2798,7 +2800,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1766451454}
   m_OnClick:
     m_PersistentCalls:
@@ -2829,14 +2831,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300010, guid: fb131e9e389b4b649a86e57707377ae6, type: 3}
+  m_Sprite: {fileID: 21300002, guid: efaff01532f58284c99642789c591ac2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

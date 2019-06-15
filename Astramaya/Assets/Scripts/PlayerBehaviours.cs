@@ -150,7 +150,7 @@ public class PlayerBehaviours : MonoBehaviour
                     rb.gravityScale = .5F;
                     isSwim = true;
                     jumpCount = 0;
-                    GetComponent<SpriteRenderer>().color = new Color(155,253,255,255);
+                    animator.SetBool("IsSwim", true);
                     break;
                 }
         }
@@ -165,7 +165,7 @@ public class PlayerBehaviours : MonoBehaviour
                     rb.gravityScale = 1F;
                     isSwim = false;
                     jumpCount = 0;
-                    GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
+                    animator.SetBool("IsSwim", false);
                     break;
                 }
         }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FlipMatchManager : MonoBehaviour
@@ -72,7 +73,7 @@ public class FlipMatchManager : MonoBehaviour
         buttons[position].SetActive(false);
         if (matched >= level * level / 2)
         {
-            //Game Finish
+            SceneManager.UnloadSceneAsync("FlipMatch");
         }
     }
 
