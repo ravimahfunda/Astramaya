@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d841aee4ad616304aa34477c88318798, type: 3}
+  m_Name: Jonggrang Kalapitung
+  m_EditorClassIdentifier: 
+  name: Jonggrang Kalapitung
+  artwork: {fileID: 21300004, guid: d4ab233c0de6e2248be237a7cb3eef19, type: 3}
+  description: Raksasa sebesar gunung penjaga pulau putri. Dapat berkamuflase menjadi
+    bentuk gunung yang sesungguhnya, namun saat ancaman datang ia berubah menjadi
+    sosok raksasa yang mengerikan, rambut dan kumisnya menjuntai panjang terdapat
+    berbagai hewan liar yang bersarang disana. Matanya merah dan dapat memancarkan
+    sinar yang sangat panas.

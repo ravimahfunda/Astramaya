@@ -18,11 +18,21 @@ public class LegacyManager : MonoBehaviour
 
     public int GetLevel()
     {
-        return PlayerPrefs.GetInt("LevelUnlocked", 1);
+        return PlayerPrefs.GetInt("LevelUnlocked", 3);
+    }
+
+    public void UnlockCharacter(int level)
+    {
+        PlayerPrefs.SetInt("CharacterUnlocked", level);
+    }
+
+    public int GetCharacter()
+    {
+        return PlayerPrefs.GetInt("CharacterUnlocked", 2);
     }
 
     public void CollectArca(int index) {
-        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected"));
+        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected", "010000"));
         builder.Remove(index, 1);
         builder.Insert(index, "1");
 
@@ -31,7 +41,7 @@ public class LegacyManager : MonoBehaviour
 
     public bool CheckArcaCollected(int index)
     {
-        return PlayerPrefs.GetString("ArcaCollected")[index].Equals("1");
+        return PlayerPrefs.GetString("ArcaCollected","010000")[index].Equals("1");
     }
 
     /**

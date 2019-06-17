@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d841aee4ad616304aa34477c88318798, type: 3}
   m_Name: Guriang
   m_EditorClassIdentifier: 
-  name: Guriang
-  artwork: {fileID: 21300008, guid: 883a614865bdb1e4d8c3cdd6cc31a2bb, type: 3}
-  description: Guriang Seventeen
+  name: Guriang Tujuh
+  artwork: {fileID: 21300000, guid: d4ab233c0de6e2248be237a7cb3eef19, type: 3}
+  description: Raksasa penjaga Layangan Salaka Domas yang tinggal di Langit Luar.
+    Memiliki 6 saudara guriang lainnya yang dahulu juga menjaga Layangan Salaka Domas
+    namun sudah gugur karena perjuangan mereka menjaga Layangan tersebut melawan orang-  orang
+    yang ingin mengambil Layangan tersebut juga, jadi hanya ia yang tersisa. Selain
+    badannya yang besar ia bisa terbang dan memiliki palu yang sangat besar dan kuat
+    pula.

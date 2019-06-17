@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d841aee4ad616304aa34477c88318798, type: 3}
+  m_Name: Arca 4
+  m_EditorClassIdentifier: 
+  name: Sang Pendekar
+  artwork: {fileID: 21300008, guid: f62925839f96d194db4de85fa633aea6, type: 3}
+  description: Ibu Padmawati menyeritakan hal tersebut kepada Prabu Siliwangi dan
+    ternyata Layangan tersebut adalah Layangan Salaka Domas yang bisa membuat kerajaan
+    yang memilkinya menjadi sejahtera selalu. Prabu Siliwangi mengadakan sayembara
+    kepada semua kerabatnya untuk mengambil Layangan tersebut, tak ada satupun yang
+    berani kecuali Mundinglaya Di Kusumah.

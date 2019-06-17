@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Papatutaka
   m_EditorClassIdentifier: 
   name: Papatutaka
-  artwork: {fileID: 21300000, guid: 382f56e9ef33c3a45a799be00c97dc98, type: 3}
+  artwork: {fileID: 21300010, guid: d4ab233c0de6e2248be237a7cb3eef19, type: 3}
   description: 

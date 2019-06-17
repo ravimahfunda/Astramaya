@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d841aee4ad616304aa34477c88318798, type: 3}
   m_Name: Astramaya
   m_EditorClassIdentifier: 
-  name: Astramaya
-  artwork: {fileID: 21300004, guid: 6feedd9ed409a354a933be9b79b45af3, type: 3}
-  description: Syalalela
+  name: Astramaya Di Kanaya
+  artwork: {fileID: 21300012, guid: d4ab233c0de6e2248be237a7cb3eef19, type: 3}
+  description: "Seorang putri dari kerajaan Pajajaran di daerah Jawa Barat. Putri
+    yang tertua dari Prabu Siliwangi dan Ibu Padmawati, memiliki 2 saudara laki-laki
+    dan perempuan yang masih kecil. Sejak kecil ia suka sekali memanah dan dikenal
+    dengan kepribadiannya yang \u201Cadventurous\u201D, sering sekali di tentang ayahnya
+    karena hobinya namun ia tidak pernah menghiraukannya dan terus berlatih sampai
+    pada akhirnya ia dipertemukan takdir untuk mengambil Layangan Salaka Domas yang
+    selama ini ia sudah incar sejak ia menemukan buku mengenai Layangan tersebut semasa
+    kecilnya."
