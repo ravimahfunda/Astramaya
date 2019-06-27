@@ -7,6 +7,8 @@ public class DialogTrigger : MonoBehaviour
     private DialogManager dialogManager;
     public DialogObject dialog;
     public bool autoInteract;
+    public bool useLimit;
+    public int interactLimit;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +24,9 @@ public class DialogTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player")) {
+        if (collision.gameObject.tag.Equals("Player") && (!useLimit || interactLimit > 0)) {
             dialogManager.ShowInteract(dialog.charaters, dialog.sequence, autoInteract);
+            if (useLimit) interactLimit--;
         }
     }
 

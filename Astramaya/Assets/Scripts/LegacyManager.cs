@@ -32,7 +32,7 @@ public class LegacyManager : MonoBehaviour
     }
 
     public void CollectArca(int index) {
-        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected", "010000"));
+        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected", "111000"));
         builder.Remove(index, 1);
         builder.Insert(index, "1");
 

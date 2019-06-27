@@ -17,7 +17,7 @@ public class FlipButton : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        manager = GameObject.FindGameObjectWithTag("Game Manager").GetComponent<FlipMatchManager>();
+        manager = GameObject.FindGameObjectWithTag("Minigame Manager").GetComponent<FlipMatchManager>();
     }
 
     // Update is called once per frame

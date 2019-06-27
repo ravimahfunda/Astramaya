@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19de80fffc6c0df4cacbc688d41eee7f, type: 3}
-  m_Name: New Dialog
+  m_Name: 1. Papatutaka Intro
   m_EditorClassIdentifier: 
   charaters:
   - {fileID: 11400000, guid: 69cf2ec9ead3b0447b9a1cd7fe02d71f, type: 2}
@@ -18,7 +18,7 @@ MonoBehaviour:
   sequence:
   - '#1'
   - Astramaya...
-  - Astramaua...
+  - Astramaya...
   - '#0'
   - Siapa disana? Tunjukan dirimu!
   - '#1'

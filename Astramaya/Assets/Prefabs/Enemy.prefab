@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2097848080996476291}
   - component: {fileID: 2097848080996476288}
   - component: {fileID: 2097848080996476289}
+  - component: {fileID: 7754650908646655073}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Platform
@@ -151,3 +152,22 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   maxHealth: 6
+--- !u!95 &7754650908646655073
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097848080996476318}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47c939a1a8e86ae408524cdb4db25f4a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

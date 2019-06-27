@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 3.unity
     guid: 110f172332f70da4494bcd0b874f7bdd
   - enabled: 1
+    path: Assets/Scenes/FlipMatch.unity
+    guid: ff402946945d26244af55478c8c71026
+  - enabled: 1
     path: Assets/Scenes/Power Up.unity
     guid: 52336f88068627140aec075026c23978
   m_configObjects: {}

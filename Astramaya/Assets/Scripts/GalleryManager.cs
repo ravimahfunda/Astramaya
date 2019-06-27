@@ -27,9 +27,9 @@ public class GalleryManager : MonoBehaviour
             characterButton[i].interactable = true;
         }
 
-        for (int i = 0; i < loreButton.Length; i++)
+        for (int i = 0; i < 3; i++)
         {
-            loreButton[i].interactable = lm.CheckArcaCollected(i);
+            loreButton[i].interactable = true;
         }
     }
 
