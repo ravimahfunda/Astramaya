@@ -35,18 +35,20 @@ public class PlayerBehaviours : MonoBehaviour
     Rigidbody2D rb;
     Animator animator;
 
+    public bool isCombat;
+
     // Start is called before the first frame update
     void Start()
     {
-        ammoBar.maxValue = maxArrowAmmo;
-        ammoBar.value = maxArrowAmmo;
+        //ammoBar.maxValue = maxArrowAmmo;
+        //ammoBar.value = maxArrowAmmo;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !isCombat)
         {
             Jump();
         }
@@ -55,6 +57,8 @@ public class PlayerBehaviours : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (isCombat) return;
+
         vMove = rb.velocity.y;
         float swimSpeed = movementSpeed * 3 / 4;
         if (isSwim) {
@@ -94,11 +98,20 @@ public class PlayerBehaviours : MonoBehaviour
         rb.velocity = new Vector2(hMove, vMove);
     }
 
-    public void Shoot(){
-        if (allowShoot && ammoBar.value > 0) {
-            ammoBar.value--;
+    public void Shoot(bool isRight){
+        if (allowShoot) {
+            if ((isRight && !isFaceRight) || (!isRight && isFaceRight))
+            {
+                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                isFaceRight = !isFaceRight;
+
+            }
+
+            //ammoBar.value--;
             allowShoot = false;
+
             shootAudio.Play();
+
             animator.SetTrigger("Shoot");
             Vector2 shootForce = transform.right * shootPower;
 

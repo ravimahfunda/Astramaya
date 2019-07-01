@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2097848080996476288}
   - component: {fileID: 2097848080996476289}
   - component: {fileID: 7754650908646655073}
+  - component: {fileID: 5422881795737605097}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Platform
@@ -171,3 +172,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5422881795737605097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097848080996476318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2607b1156e7ff034983c6b410f81b4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  behaviour_type: 2
+  patrolPoints: []
+  delayBetweenPatrol: 0
+  speed: 0
+  spotRange: 0
