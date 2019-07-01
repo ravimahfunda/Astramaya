@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Locked
   m_EditorClassIdentifier: 
   charaters:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 69cf2ec9ead3b0447b9a1cd7fe02d71f, type: 2}
   sequence:
   - Sepertinya aku memerlukan sesuatu untuk membuka. Namun, apakah itu?
   - Apakah aku melewatkan sesuatu?

@@ -36,15 +36,12 @@ public class PowerUpManager : MonoBehaviour
     {
         lm = new LegacyManager();
 
-        lm.ResetData();
-
         maxArrow = lm.GetMaxArrow();
         arrowDamage = lm.GetDamage();
         attackSpeed = lm.GetAttackSpeed();
 
         maxHealth = lm.GetMaxHealth();
         potion = lm.GetPotion();
-        lm.SetCoin(3000);
         coin = lm.GetCoin();
 
         maxArrowText.text = maxArrow.ToString();
