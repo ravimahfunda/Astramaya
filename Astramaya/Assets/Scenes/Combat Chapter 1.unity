@@ -354,6 +354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 568431902}
+  - component: {fileID: 568431903}
   m_Layer: 0
   m_Name: Combat Manager
   m_TagString: Untagged
@@ -375,6 +376,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &568431903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568431901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0802eec42d0cddf4e863a70e3e0eaa06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  difficulty: 1
+  enemyVariant:
+  - {fileID: 2097848080996476318, guid: 0e435a06b568bc646afae1845b04313c, type: 3}
+  spawnPoints:
+  - {fileID: 2074804985}
+  - {fileID: 28968922}
 --- !u!1 &593522302
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +635,7 @@ PrefabInstance:
     - target: {fileID: 2097848080996476293, guid: 0e435a06b568bc646afae1845b04313c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.35
+      value: -5.48
       objectReference: {fileID: 0}
     - target: {fileID: 2097848080996476293, guid: 0e435a06b568bc646afae1845b04313c,
         type: 3}
