@@ -14,7 +14,7 @@ public class Damagable : MonoBehaviour
     public UnityEvent onDie;
 
     public float maxHealth;
-    private float currentHealth;
+    public float currentHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +31,15 @@ public class Damagable : MonoBehaviour
     {
         TakeDamage(collision.gameObject);
 
+    }
+
+    public void Heal(int amount) {
+        currentHealth += amount;
+
+        if (healthBar != null)
+        {
+            healthBar.value = currentHealth / maxHealth;
+        }
     }
 
     public void TakeDamage(GameObject collision) {
