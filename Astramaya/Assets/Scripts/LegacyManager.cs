@@ -27,16 +27,21 @@ public class LegacyManager
     }
 
     public void CollectArca(int index) {
-        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected", "100000"));
-        builder.Remove(index, 1);
-        builder.Insert(index, "1");
 
-        PlayerPrefs.SetString("ArcaCollected",builder.ToString());
+        string prev = PlayerPrefs.GetString("ArcaCollected", "000000");
+        StringBuilder builder = new StringBuilder(prev);
+
+        builder.Remove(index, 1);
+        builder.Insert(index, '1');
+
+        string after = builder.ToString();
+        PlayerPrefs.SetString("ArcaCollected", after);
     }
 
     public bool CheckArcaCollected(int index)
     {
-        return PlayerPrefs.GetString("ArcaCollected", "100000")[index].Equals("1");
+        string arcas = PlayerPrefs.GetString("ArcaCollected", "000000");
+        return arcas[index] == '1';
     }
 
     /**
