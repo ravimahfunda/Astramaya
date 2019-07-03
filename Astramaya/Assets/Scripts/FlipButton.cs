@@ -27,8 +27,10 @@ public class FlipButton : MonoBehaviour
     }
 
     public void CardClick() {
-        anim.SetBool("IsOpen", true);
-        manager.CardSelect(index, position);
+        if (manager.allowToPick) {
+            anim.SetBool("IsOpen", true);
+            manager.CardSelect(index, position);
+        }
     }
 
     public void CardClose()

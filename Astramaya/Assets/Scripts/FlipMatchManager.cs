@@ -14,10 +14,12 @@ public class FlipMatchManager : MonoBehaviour
 
     private int firstSelected;
     private int firstPosition;
+    public bool allowToPick;
 
     // Start is called before the first frame update
     void Start()
     {
+        allowToPick = true;
         firstSelected = -1;
         GenerateLevel(level);
     }
@@ -45,7 +47,8 @@ public class FlipMatchManager : MonoBehaviour
     }
 
     public void CardSelect(int index, int position) {
-        Debug.Log("Index: "+index);
+        Debug.Log("Allow: "+allowToPick);
+        if (!allowToPick) return;
         if (firstSelected == -1)
         {
             firstSelected = index;
@@ -53,6 +56,7 @@ public class FlipMatchManager : MonoBehaviour
         }
         else
         {
+            allowToPick = false;
             if (firstSelected == index)
             {
                 matched++;
@@ -64,6 +68,7 @@ public class FlipMatchManager : MonoBehaviour
                 StartCoroutine(Wrong(position));
             }
             firstSelected = -1;
+
         }
     }
 
@@ -75,6 +80,7 @@ public class FlipMatchManager : MonoBehaviour
         {
             SceneManager.UnloadSceneAsync("FlipMatch");
         }
+        allowToPick = true;
     }
 
     IEnumerator Wrong(int position)
@@ -82,5 +88,6 @@ public class FlipMatchManager : MonoBehaviour
         yield return new WaitForSeconds(.7f);
         buttons[firstPosition].GetComponent<FlipButton>().CardClose();
         buttons[position].GetComponent<FlipButton>().CardClose();
+        allowToPick = true;
     }
 }
