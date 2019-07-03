@@ -3,13 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-public class LegacyManager : MonoBehaviour
+public class LegacyManager
 {
-
-    private void Start()
-    {
-
-    }
 
     public void UnlockLevel(int level)
     {
@@ -18,7 +13,7 @@ public class LegacyManager : MonoBehaviour
 
     public int GetLevel()
     {
-        return PlayerPrefs.GetInt("LevelUnlocked", 3);
+        return PlayerPrefs.GetInt("LevelUnlocked", 1);
     }
 
     public void UnlockCharacter(int level)
@@ -28,11 +23,11 @@ public class LegacyManager : MonoBehaviour
 
     public int GetCharacter()
     {
-        return PlayerPrefs.GetInt("CharacterUnlocked", 2);
+        return PlayerPrefs.GetInt("CharacterUnlocked", 1);
     }
 
     public void CollectArca(int index) {
-        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected", "111000"));
+        StringBuilder builder = new StringBuilder(PlayerPrefs.GetString("ArcaCollected", "100000"));
         builder.Remove(index, 1);
         builder.Insert(index, "1");
 
@@ -41,7 +36,7 @@ public class LegacyManager : MonoBehaviour
 
     public bool CheckArcaCollected(int index)
     {
-        return PlayerPrefs.GetString("ArcaCollected","010000")[index].Equals("1");
+        return PlayerPrefs.GetString("ArcaCollected", "100000")[index].Equals("1");
     }
 
     /**
@@ -114,7 +109,18 @@ public class LegacyManager : MonoBehaviour
 
     public int GetMaxHealth()
     {
-        return PlayerPrefs.GetInt("MaxHealth", 10);
+        return PlayerPrefs.GetInt("MaxHealth", 100);
+    }
+
+    public int SetCurrentHealth(int amount)
+    {
+        PlayerPrefs.SetInt("CurrentHealth", amount);
+        return amount;
+    }
+
+    public int GetCurrentHealth()
+    {
+        return PlayerPrefs.GetInt("CurrentHealth", 100);
     }
 
     public int SetPotion(int amount)
@@ -141,5 +147,21 @@ public class LegacyManager : MonoBehaviour
 
     public void ResetData() {
         PlayerPrefs.DeleteAll();
+    }
+
+    /**
+     * ======================
+     * COMBAT
+     * ======================
+     **/
+    public int SetDifficulty(int count)
+    {
+        PlayerPrefs.SetInt("Difficulty", count);
+        return count;
+    }
+
+    public int GetDifficulty()
+    {
+        return PlayerPrefs.GetInt("Difficulty", 1);
     }
 }

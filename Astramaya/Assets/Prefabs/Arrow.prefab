@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8277291703410154474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.572, y: 0, z: 0}
+  m_LocalPosition: {x: 1.166, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8277291704923580258}
@@ -69,7 +69,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Time: 0.5
+  m_Time: 0.7
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -78,13 +78,22 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.24285698
-        inSlope: -0.78014475
-        outSlope: -0.78014475
+        value: 0
+        inSlope: 1.4214017
+        outSlope: 1.4214017
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.32960895
+        inWeight: 0
+        outWeight: 0.42105258
+      - serializedVersion: 3
+        time: 0.46705782
+        value: 0.18855917
+        inSlope: -0.53930235
+        outSlope: -0.53930235
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.39430475
+        outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
         value: 0
@@ -100,8 +109,8 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0.59607846}
-      key2: {r: 0, g: 0, b: 0, a: 0}
+      key1: {r: 1, g: 1, b: 1, a: 0.6627451}
+      key2: {r: 1, g: 1, b: 1, a: 0.65882355}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
@@ -109,15 +118,15 @@ TrailRenderer:
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
       ctime1: 65535
-      ctime2: 0
+      ctime2: 65535
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
+      atime1: 34310
+      atime2: 65535
       atime3: 0
       atime4: 0
       atime5: 0
@@ -125,7 +134,7 @@ TrailRenderer:
       atime7: 0
       m_Mode: 0
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumAlphaKeys: 3
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
@@ -163,7 +172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8277291704923580270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.24, y: 1.35, z: 0}
+  m_LocalPosition: {x: -54.283, y: 1.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8277291703410154475}
@@ -204,8 +213,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1731493239
+  m_SortingLayer: 1
   m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: dae39adff4e8dbe4ea0edd939d00a9a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -252,10 +261,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006453693, y: -0.013813138}
+  m_Offset: {x: 1.09799, y: 0.008434862}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.00006391728, y: 0.47372377}
     oldSize: {x: 1.1816666, y: 0.23}
     newSize: {x: 1.7725, y: 0.345}
     adaptiveTilingThreshold: 0.5
@@ -263,7 +272,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.194574, y: 0.08684564}
+  m_Size: {x: 0.21053696, y: 0.09224099}
   m_EdgeRadius: 0
 --- !u!114 &1883434738452104098
 MonoBehaviour:
@@ -277,4 +286,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ba850827a839f4ca22961f4122de55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isProjectile: 1
   damage: 1

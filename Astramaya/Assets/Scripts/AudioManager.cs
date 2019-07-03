@@ -5,14 +5,16 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
 
-    private static AudioManager _instance;
-
-    public static AudioManager Instance { get { return _instance; } }
+   
 
     private LegacyManager lm;
 
     public AudioSource[] sfxs;
     public AudioSource[] bgms;
+
+    private static AudioManager _instance;
+
+    public static AudioManager Instance { get { return _instance; } }
 
     private void Awake()
     {

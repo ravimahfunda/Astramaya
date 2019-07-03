@@ -17,6 +17,7 @@ public class PlayerBehaviours : MonoBehaviour
     public GameObject arrow;
     public float shootPower;
     public float attackDelay;
+    public float ammoRecoveryTime;
     public int maxArrowAmmo;
     private bool allowShoot = true;
 
@@ -40,10 +41,15 @@ public class PlayerBehaviours : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //ammoBar.maxValue = maxArrowAmmo;
-        //ammoBar.value = maxArrowAmmo;
+        if (isCombat)
+        {
+            ammoBar.maxValue = maxArrowAmmo;
+            ammoBar.value = maxArrowAmmo;
+        }
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        StartCoroutine(Reload());
     }
 
     private void Update()
@@ -99,7 +105,7 @@ public class PlayerBehaviours : MonoBehaviour
     }
 
     public void Shoot(bool isRight){
-        if (allowShoot) {
+        if (allowShoot && ammoBar.value > 0) {
             if ((isRight && !isFaceRight) || (!isRight && isFaceRight))
             {
                 transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
@@ -107,7 +113,7 @@ public class PlayerBehaviours : MonoBehaviour
 
             }
 
-            //ammoBar.value--;
+            ammoBar.value--;
             allowShoot = false;
 
             shootAudio.Play();
@@ -125,6 +131,15 @@ public class PlayerBehaviours : MonoBehaviour
 
             StartCoroutine(delayShoot());
         }
+    }
+
+    IEnumerator Reload ()
+    {
+        yield return new WaitForSeconds(ammoRecoveryTime);
+        if(ammoBar.value < ammoBar.maxValue)
+            ammoBar.value++;
+
+        StartCoroutine(Reload());
     }
 
     IEnumerator delayShoot() {

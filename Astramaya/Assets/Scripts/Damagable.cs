@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Damagable : MonoBehaviour
 {
+
     public Slider healthBar;
 
     public List<string> damagerTags;
@@ -26,6 +27,12 @@ public class Damagable : MonoBehaviour
         TakeDamage(collision.gameObject);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        TakeDamage(collision.gameObject);
+
+    }
+
     public void TakeDamage(GameObject collision) {
         
         if (damagerTags.Contains(collision.tag))
@@ -33,7 +40,6 @@ public class Damagable : MonoBehaviour
             Damager damager = collision.GetComponent<Damager>();
             if (damager != null)
             {
-
                 currentHealth -= damager.damage;
 
                 if (healthBar != null)

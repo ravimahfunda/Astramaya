@@ -20,9 +20,10 @@ public class Portal : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player")) {
+        if (collision.gameObject.tag.Equals("Player"))
+        {
             collision.gameObject.transform.position = target.position;
         }
     }

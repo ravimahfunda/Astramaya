@@ -33,7 +33,7 @@ public class EnemyBehaviours : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         playerInRange = Vector2.Distance(transform.position, player.position) <= spotRange;
 
         if (behaviour_type == BEHAVIOUR_TYPE.CHASE || playerInRange) {
@@ -46,7 +46,6 @@ public class EnemyBehaviours : MonoBehaviour
 
         if ((player.position.x > transform.position.x && !isFacingRight)||(player.position.x < transform.position.x && isFacingRight))
         {
-            Debug.Log("Swap");
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             isFacingRight = true;
         }

@@ -11,6 +11,8 @@ TagManager:
   - Game Manager
   - Arrow
   - Minigame Manager
+  - UI Manager
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -47,4 +49,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Battle
+    uniqueID: 1731493239
     locked: 0

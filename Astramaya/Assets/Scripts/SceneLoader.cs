@@ -6,13 +6,23 @@ using UnityEngine.UI;
 
 public class SceneLoader : MonoBehaviour
 {
-
+    public GameObject mainCamera;
     public GameObject loadingScreen;
     public Slider loadingBar;
 
     public void AddScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+    }
+
+    public void AddSceneAndSetActive(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+    }
+
+    public void ActiveMainCamera()
+    {
+        mainCamera.SetActive(false);
     }
 
     public void RemoveScene(string sceneName)

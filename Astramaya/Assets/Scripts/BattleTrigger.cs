@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Damager : MonoBehaviour
+public class BattleTrigger : MonoBehaviour
 {
-    public bool isProjectile;
+    public int difficulty;
 
-    public float damage;
+    private UIManager uiManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        uiManager = GameObject.FindGameObjectWithTag("UI Manager").GetComponent<UIManager>();
     }
 
     // Update is called once per frame
@@ -22,7 +22,9 @@ public class Damager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (isProjectile) {
+        if (collision.gameObject.tag.Equals("Player")) {
+            new LegacyManager().SetDifficulty(difficulty);
+            uiManager.Encounter();
             Destroy(this.gameObject);
         }
     }
