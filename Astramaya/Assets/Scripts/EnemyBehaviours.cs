@@ -21,12 +21,13 @@ public class EnemyBehaviours : MonoBehaviour
 
     private Transform player;
     private bool playerInRange;
-    private bool isFacingRight = false;
+    private bool isFacingRight;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        isFacingRight = false;
     }
 
     // Update is called once per frame
@@ -36,19 +37,21 @@ public class EnemyBehaviours : MonoBehaviour
         playerInRange = Vector2.Distance(transform.position, player.position) <= spotRange;
 
         if (behaviour_type == BEHAVIOUR_TYPE.CHASE || playerInRange) {
-            float step = speed * Time.deltaTime;
-
-            Debug.Log("Player Pos: "+player.position.x + " | Enemy Pos: " + transform.position.x +" | "+ (player.position.x > transform.position.x && !isFacingRight) );
-
-            //if ((player.position.x > transform.position.x && !isFacingRight)||(player.position.x < transform.position.x && isFacingRight)) {
-            if ((player.position.x > transform.position.x && !isFacingRight)) {
-                Debug.Log("Swap");
-                transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
-                isFacingRight = true;
-            }
-
-            transform.position = Vector2.MoveTowards(transform.position, player.position, step);
+            Move();
         }
+    }
+
+    void Move() {
+        float step = speed * Time.deltaTime;
+
+        if ((player.position.x > transform.position.x && !isFacingRight)||(player.position.x < transform.position.x && isFacingRight))
+        {
+            Debug.Log("Swap");
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            isFacingRight = true;
+        }
+
+        transform.position = Vector2.MoveTowards(transform.position, player.position, step);
     }
 
     void OnDrawGizmosSelected()

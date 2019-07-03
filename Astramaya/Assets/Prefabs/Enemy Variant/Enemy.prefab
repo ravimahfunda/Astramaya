@@ -161,7 +161,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097848080996476318}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 47c939a1a8e86ae408524cdb4db25f4a, type: 2}
   m_CullingMode: 0
@@ -187,5 +187,5 @@ MonoBehaviour:
   behaviour_type: 2
   patrolPoints: []
   delayBetweenPatrol: 0
-  speed: 0
-  spotRange: 0
+  speed: 1
+  spotRange: 3.5
