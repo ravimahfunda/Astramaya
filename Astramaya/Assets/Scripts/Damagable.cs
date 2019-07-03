@@ -33,6 +33,16 @@ public class Damagable : MonoBehaviour
 
     }
 
+    public void SetHealth(float amount)
+    {
+        currentHealth = amount;
+
+        if (healthBar != null)
+        {
+            healthBar.value = currentHealth / maxHealth;
+        }
+    }
+
     public void Heal(int amount) {
         currentHealth += amount;
 

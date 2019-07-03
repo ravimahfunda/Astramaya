@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class LegacyAgent : MonoBehaviour
 {
-    public Damagable playerHealth;
-
+    public GameObject player;
     public Text potionText;
+
+    private Damagable playerHealth;
+    private PlayerBehaviours playerBehave;
     private int potionCount;
 
     private LegacyManager lm;
@@ -17,12 +19,22 @@ public class LegacyAgent : MonoBehaviour
     {
         lm = new LegacyManager();
         potionCount = lm.GetPotion();
+        playerHealth = player.GetComponent<Damagable>();
+        playerBehave = player.GetComponent<PlayerBehaviours>();
 
-        potionText.text = "X " + potionCount;
 
-        int maxHealth = lm.GetMaxHealth();
-        playerHealth.maxHealth = maxHealth;
-        playerHealth.currentHealth = maxHealth;
+        if(potionText != null)
+            potionText.text = "X " + potionCount;
+
+        if (player == null) return;
+        Debug.LogWarning("Olo");
+        playerHealth.maxHealth = lm.GetMaxHealth();
+        playerHealth.SetHealth(lm.GetCurrentHealth());
+
+        playerBehave.attackDelay = lm.GetAttackSpeed();
+        playerBehave.maxArrowAmmo= lm.GetMaxArrow();
+        playerBehave.ammoBar.maxValue = lm.GetMaxArrow();
+        playerBehave.ammoBar.value= lm.GetMaxArrow();
     }
 
     // Update is called once per frame

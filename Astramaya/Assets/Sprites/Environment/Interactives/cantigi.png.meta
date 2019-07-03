@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: a7ad1b8bd3fd80d4fbd92011fe5faf0a
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: cantigi_0
+    21300002: cantigi_1
+    21300004: cantigi_2
+    21300006: cantigi_3
+    21300008: cantigi_4
+    21300010: cantigi_5
+    21300012: cantigi_6
+    21300014: cantigi_7
+    21300016: cantigi_8
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -45,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,7 +146,187 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cantigi_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de896d4463f10a4fb244d34b2bef13b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_1
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578a05c04fcb32e4b9e2e22d1b8e8deb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_2
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdff484dbb1dba4a975ba9e46019239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_3
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aa8b05198ddbb46aa829ea1a256c51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_4
+      rect:
+        serializedVersion: 2
+        x: 4904
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa682e08fed3dc4496f149e93b5bfa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_5
+      rect:
+        serializedVersion: 2
+        x: 6130
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b0beda3c101f149adcc46dcd441729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_6
+      rect:
+        serializedVersion: 2
+        x: 7356
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226323bece5ae2d458af9f882f6b6ae2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_7
+      rect:
+        serializedVersion: 2
+        x: 8582
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ebefde2ea9dd74085298c3a6fe4b58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cantigi_8
+      rect:
+        serializedVersion: 2
+        x: 9808
+        y: 0
+        width: 1226
+        height: 1464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026d9f824a565074daf37b64e2c8fc43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

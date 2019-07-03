@@ -45,11 +45,12 @@ public class PlayerBehaviours : MonoBehaviour
         {
             ammoBar.maxValue = maxArrowAmmo;
             ammoBar.value = maxArrowAmmo;
+            StartCoroutine(Reload());
         }
+
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        StartCoroutine(Reload());
     }
 
     private void Update()

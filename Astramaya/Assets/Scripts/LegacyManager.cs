@@ -28,7 +28,7 @@ public class LegacyManager
 
     public void CollectArca(int index) {
 
-        string prev = PlayerPrefs.GetString("ArcaCollected", "000000");
+        string prev = PlayerPrefs.GetString("ArcaCollected", "100000");
         StringBuilder builder = new StringBuilder(prev);
 
         builder.Remove(index, 1);
@@ -40,7 +40,7 @@ public class LegacyManager
 
     public bool CheckArcaCollected(int index)
     {
-        string arcas = PlayerPrefs.GetString("ArcaCollected", "000000");
+        string arcas = PlayerPrefs.GetString("ArcaCollected", "100000");
         return arcas[index] == '1';
     }
 
@@ -81,7 +81,7 @@ public class LegacyManager
 
     public int GetMaxArrow()
     {
-        return PlayerPrefs.GetInt("MaxArrow", 10);
+        return PlayerPrefs.GetInt("MaxArrow", 5);
     }
 
     public int SetDamage(int amount)
@@ -103,7 +103,7 @@ public class LegacyManager
 
     public float GetAttackSpeed()
     {
-        return PlayerPrefs.GetFloat("AttackSpeed", 1f);
+        return PlayerPrefs.GetFloat("AttackSpeed", 0.6f);
     }
 
     public int SetMaxHealth(int amount)
@@ -117,15 +117,15 @@ public class LegacyManager
         return PlayerPrefs.GetInt("MaxHealth", 100);
     }
 
-    public int SetCurrentHealth(int amount)
+    public float SetCurrentHealth(float amount)
     {
-        PlayerPrefs.SetInt("CurrentHealth", amount);
+        PlayerPrefs.SetFloat("CurrentHealth", amount);
         return amount;
     }
 
-    public int GetCurrentHealth()
+    public float GetCurrentHealth()
     {
-        return PlayerPrefs.GetInt("CurrentHealth", 100);
+        return PlayerPrefs.GetFloat("CurrentHealth", GetMaxHealth());
     }
 
     public int SetPotion(int amount)

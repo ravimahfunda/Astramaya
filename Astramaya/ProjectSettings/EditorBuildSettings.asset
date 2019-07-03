@@ -36,6 +36,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Power Up.unity
     guid: 52336f88068627140aec075026c23978
   - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: 30ee76e81f4ccfa40af100b19d4f9b05
+  - enabled: 1
+    path: Assets/Scenes/Epilogue.unity
+    guid: 7165894280abcee4388f626135d403b8
+  - enabled: 1
     path: Assets/Scenes/Combat Chapter 1.unity
     guid: ee987fd73eb679949a015f4d9cc3138d
   m_configObjects: {}

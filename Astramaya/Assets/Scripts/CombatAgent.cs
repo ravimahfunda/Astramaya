@@ -7,6 +7,7 @@ public class CombatAgent : MonoBehaviour
 {
 
     private static CombatAgent _instance;
+    private LegacyManager lm;
 
     public static CombatAgent Instance { get { return _instance; } }
 
@@ -22,12 +23,21 @@ public class CombatAgent : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        lm = new LegacyManager();
+    }
+
     public GameObject encounterScreen;
     public GameObject mainCamera;
     public GameObject player;
 
     public void OnBattleStart()
     {
+        lm.SetCurrentHealth(player.GetComponent<Damagable>().currentHealth);
+        Debug.LogWarning(lm.GetCurrentHealth()+" Olo");
+        Debug.LogWarning(lm.GetMaxHealth() + " Olo");
+
         encounterScreen.SetActive(true);
         mainCamera.SetActive(false);
         player.SetActive(false);
@@ -37,5 +47,7 @@ public class CombatAgent : MonoBehaviour
         encounterScreen.SetActive(false);
         mainCamera.SetActive(true);
         player.SetActive(true);
+        player.GetComponent<Damagable>().SetHealth(lm.GetCurrentHealth());
+        Debug.LogWarning(lm.GetCurrentHealth());
     }
 }

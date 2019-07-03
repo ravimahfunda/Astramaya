@@ -120,6 +120,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
+        type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.106927305
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.68322515
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.050806522
+      objectReference: {fileID: 0}
     - target: {fileID: 8632598922371002065, guid: ae09d619888f3e748a021d329241cf70,
         type: 3}
       propertyPath: damagerTags.Array.size
@@ -149,21 +169,6 @@ PrefabInstance:
         type: 3}
       propertyPath: spotRange
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
-        type: 3}
-      propertyPath: m_UsedByEffector
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.2974727
-      objectReference: {fileID: 0}
-    - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.30213428
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae09d619888f3e748a021d329241cf70, type: 3}
