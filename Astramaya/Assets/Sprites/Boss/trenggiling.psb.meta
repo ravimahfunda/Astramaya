@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 359d42a338bef1c41866433fc569625c
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: trenggiling_GO/trenggiling_GO
+    100002: trenggiling_GO/trenggiling_GO/badan
+    100004: trenggiling_GO/trenggiling_GO/buntut
+    100006: trenggiling_GO/trenggiling_GO/Group 5
+    100008: trenggiling_GO/trenggiling_GO/kaki kanan
+    100010: trenggiling_GO/trenggiling_GO/kaki kiri
+    100012: trenggiling_GO/trenggiling_GO/muka
+    100014: trenggiling_GO/trenggiling_GO/tangan kanan
+    100016: trenggiling_GO/trenggiling_GO/tangan kiri
+    400000: trenggiling_GO/trenggiling_GO/Transform
+    400002: trenggiling_GO/trenggiling_GO/badan/Transform
+    400004: trenggiling_GO/trenggiling_GO/buntut/Transform
+    400006: trenggiling_GO/trenggiling_GO/Group 5/Transform
+    400008: trenggiling_GO/trenggiling_GO/kaki kanan/Transform
+    400010: trenggiling_GO/trenggiling_GO/kaki kiri/Transform
+    400012: trenggiling_GO/trenggiling_GO/muka/Transform
+    400014: trenggiling_GO/trenggiling_GO/tangan kanan/Transform
+    400016: trenggiling_GO/trenggiling_GO/tangan kiri/Transform
+    2800000: trenggiling
+    21200000: trenggiling_GO/trenggiling_GO/badan/SpriteRenderer
+    21200002: trenggiling_GO/trenggiling_GO/buntut/SpriteRenderer
+    21200004: trenggiling_GO/trenggiling_GO/Group 5/SpriteRenderer
+    21200006: trenggiling_GO/trenggiling_GO/kaki kanan/SpriteRenderer
+    21200008: trenggiling_GO/trenggiling_GO/kaki kiri/SpriteRenderer
+    21200010: trenggiling_GO/trenggiling_GO/muka/SpriteRenderer
+    21200012: trenggiling_GO/trenggiling_GO/tangan kanan/SpriteRenderer
+    21200014: trenggiling_GO/trenggiling_GO/tangan kiri/SpriteRenderer
+    21300000: 9552c47947f5acc4d908d93561f6f4ce
+    21300002: c554c6f8e00f2c84b83815cb09ae49a8
+    21300004: 9c021283939031845887dd8d5bf54d5f
+    21300006: ccffba69629a70640b7e4d141804707d
+    21300008: dded522360831b24385e0e73dc310671
+    21300010: c217ebc3b62b502468394e1dc2d8ae10
+    21300012: 9b49b6d5db9de9f4dae6f010d1f71dd8
+    21300014: 35e219475100b6d42a28378fcc9f53a2
+    100100000: trenggiling_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Group 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1433
+      y: 4
+      width: 605
+      height: 608
+    spriteID: 9552c47947f5acc4d908d93561f6f4ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 213, y: -700}
+  - name: muka
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 887
+      width: 364
+      height: 282
+    spriteID: c554c6f8e00f2c84b83815cb09ae49a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -332, y: -216}
+  - name: buntut
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 884
+      height: 875
+    spriteID: 9c021283939031845887dd8d5bf54d5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -365, y: -594}
+  - name: tangan kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1611
+      y: 620
+      width: 178
+      height: 243
+    spriteID: ccffba69629a70640b7e4d141804707d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 919, y: -204}
+  - name: badan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 896
+      y: 4
+      width: 529
+      height: 744
+    spriteID: dded522360831b24385e0e73dc310671
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 541, y: -624}
+  - name: kaki kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1433
+      y: 620
+      width: 170
+      height: 255
+    spriteID: c217ebc3b62b502468394e1dc2d8ae10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 802, y: 147}
+  - name: kaki kiri
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 376
+      y: 887
+      width: 141
+      height: 279
+    spriteID: 9b49b6d5db9de9f4dae6f010d1f71dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -96, y: 431}
+  - name: tangan kiri
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1797
+      y: 620
+      width: 178
+      height: 243
+    spriteID: 35e219475100b6d42a28378fcc9f53a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1483, y: -247}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2046, y: 1734}
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Group 5
+    spriteName: Group 5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9552c47947f5acc4d908d93561f6f4ce
+    layerID: 116
+    mosaicPosition: {x: 1433, y: 4}
+  - name: Group 4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+  - name: muka
+    spriteName: muka
+    isGroup: 0
+    parentIndex: 1
+    spriteID: c554c6f8e00f2c84b83815cb09ae49a8
+    layerID: 380
+    mosaicPosition: {x: 4, y: 887}
+  - name: buntut
+    spriteName: buntut
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 9c021283939031845887dd8d5bf54d5f
+    layerID: 382
+    mosaicPosition: {x: 4, y: 4}
+  - name: tangan kanan
+    spriteName: tangan kanan
+    isGroup: 0
+    parentIndex: 1
+    spriteID: ccffba69629a70640b7e4d141804707d
+    layerID: 69
+    mosaicPosition: {x: 1611, y: 620}
+  - name: badan
+    spriteName: badan
+    isGroup: 0
+    parentIndex: 1
+    spriteID: dded522360831b24385e0e73dc310671
+    layerID: 384
+    mosaicPosition: {x: 896, y: 4}
+  - name: kaki kanan
+    spriteName: kaki kanan
+    isGroup: 0
+    parentIndex: 1
+    spriteID: c217ebc3b62b502468394e1dc2d8ae10
+    layerID: 94
+    mosaicPosition: {x: 1433, y: 620}
+  - name: kaki kiri
+    spriteName: kaki kiri
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 9b49b6d5db9de9f4dae6f010d1f71dd8
+    layerID: 93
+    mosaicPosition: {x: 376, y: 887}
+  - name: tangan kiri
+    spriteName: tangan kiri
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 35e219475100b6d42a28378fcc9f53a2
+    layerID: 92
+    mosaicPosition: {x: 1797, y: 620}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: trenggiling
+  prefabAssetName: trenggiling_GO
