@@ -15,6 +15,9 @@ public class Damagable : MonoBehaviour
 
     public float maxHealth;
     public float currentHealth;
+    public AudioSource hurtSfx;
+
+    private bool isGrounded = false;
 
     // Start is called before the first frame update
     void Start()
@@ -52,13 +55,29 @@ public class Damagable : MonoBehaviour
         }
     }
 
+    
+
     public void TakeDamage(GameObject collision) {
-        
+
+        if (collision.tag.Equals("Platform") || collision.tag.Equals("Obstacles")) {
+            isGrounded = true;
+        }
+
         if (damagerTags.Contains(collision.tag))
         {
             Damager damager = collision.GetComponent<Damager>();
             if (damager != null)
             {
+
+                Rigidbody2D rb = GetComponent<Rigidbody2D>();
+                if (rb != null && isGrounded) {
+                    rb.AddForce((Vector2.up * 5f), ForceMode2D.Impulse);
+                }
+
+                if (hurtSfx != null) {
+                    hurtSfx.Play();
+                }
+
                 currentHealth -= damager.damage;
 
                 if (healthBar != null)
