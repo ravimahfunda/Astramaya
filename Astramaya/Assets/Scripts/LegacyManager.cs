@@ -8,7 +8,8 @@ public class LegacyManager : MonoBehaviour
 
     public void UnlockLevel(int level)
     {
-        PlayerPrefs.SetInt("LevelUnlocked",level);
+        if(level > PlayerPrefs.GetInt("LevelUnlocked", 1))
+            PlayerPrefs.SetInt("LevelUnlocked",level);
     }
 
     public int GetLevel()
@@ -18,7 +19,8 @@ public class LegacyManager : MonoBehaviour
 
     public void UnlockCharacter(int level)
     {
-        PlayerPrefs.SetInt("CharacterUnlocked", level);
+        if (level > PlayerPrefs.GetInt("CharacterUnlocked", 1))
+            PlayerPrefs.SetInt("CharacterUnlocked", level);
     }
 
     public int GetCharacter()

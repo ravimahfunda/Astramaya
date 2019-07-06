@@ -8,6 +8,7 @@ public class MinigameManager : MonoBehaviour
 
     public static MinigameManager Instance { get { return _instance; } }
     public int minigameIndex;
+    public string minigameTitle;
 
     private void Awake()
     {
@@ -35,5 +36,10 @@ public class MinigameManager : MonoBehaviour
 
     public void SetIndex(int index) {
         minigameIndex = index;
+    }
+
+    public void SetTitle(string title)
+    {
+        minigameTitle = title;
     }
 }

@@ -613,7 +613,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Chapter 3
+          m_StringArgument: Prologue 3
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1915918158}
@@ -2765,7 +2765,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Chapter 2
+          m_StringArgument: Prologue 2
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1915918158}

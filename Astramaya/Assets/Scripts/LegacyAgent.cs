@@ -31,11 +31,15 @@ public class LegacyAgent : MonoBehaviour
         playerHealth.SetHealth(lm.GetCurrentHealth());
 
 
-        player.GetComponent<Damager>().damage = lm.GetDamage();
+        //player.GetComponent<Damager>().damage = lm.GetDamage();
         playerBehave.attackDelay = lm.GetAttackSpeed();
         playerBehave.maxArrowAmmo= lm.GetMaxArrow();
-        playerBehave.ammoBar.maxValue = lm.GetMaxArrow();
-        playerBehave.ammoBar.value= lm.GetMaxArrow();
+
+        if (playerBehave.ammoBar != null)
+        {
+            playerBehave.ammoBar.maxValue = lm.GetMaxArrow();
+            playerBehave.ammoBar.value = lm.GetMaxArrow();
+        }
     }
 
     // Update is called once per frame

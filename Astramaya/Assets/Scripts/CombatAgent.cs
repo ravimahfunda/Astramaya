@@ -11,6 +11,7 @@ public class CombatAgent : MonoBehaviour
 
     public static CombatAgent Instance { get { return _instance; } }
 
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -28,6 +29,7 @@ public class CombatAgent : MonoBehaviour
         lm = new LegacyManager();
     }
 
+    public int level;
     public GameObject encounterScreen;
     public GameObject mainCamera;
     public GameObject player;

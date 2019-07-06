@@ -507,7 +507,6 @@ GameObject:
   - component: {fileID: 359032300}
   - component: {fileID: 359032303}
   - component: {fileID: 359032304}
-  - component: {fileID: 359032305}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -595,16 +594,20 @@ MonoBehaviour:
   artwork: {fileID: 2035235771}
   dialogs:
   - '#0'
-  - Kini sang putri meneruskan perjalannanya nan jauh
-  - Semua masih permulaan, mereka sang penjaga pusaka tidak akan memberikan pusaka
-    legendaris itu secara cuma cuma
+  - Pada jaman dahulu kala, lahirlah seorang putri kerajaan dari Kerajaan Pandjajaran.
+  - Putri ini tangguh dan gagah berani.
+  - Namun segala prestasi nya membuat saudara-saudaranya iri
   - '#1'
-  - Namun dilakukan demi perdamaian dan persatuan tanah sunda, demi itulah Astramaya
-    akan terus berjuang
-  - Akan kah semua ini menjadi sejarah?
+  - Demi menyatukan kerajaannnya yang kini terpecah belah.
+  - Sang raja memberikan sayembara kepada semua ksatria kerajaan untuk mendapatkan
+    pusaka legendaris.
+  - '#2'
+  - Namun hanya dia yang berani untuk mendapatkan pusaha Lalayang Salaka Domas itu.
+  - Hanya sang putri lah, Astramaya Di Kanaya.......
   images:
-  - {fileID: 21300000, guid: 001b5bfc0d8d79347b62cb9fdb630fdb, type: 3}
-  - {fileID: 21300000, guid: f4672da51c9148d4080cfe0d8e7aa5ac, type: 3}
+  - {fileID: 21300000, guid: c901ecd68cac0ab4886212d70797a70a, type: 3}
+  - {fileID: 21300000, guid: 445cc81a51967da45b5a7ec50b71033d, type: 3}
+  - {fileID: 21300000, guid: db1f4bf1748051b40a5e5b1cac4f9c56, type: 3}
   onDone:
     m_PersistentCalls:
       m_Calls:
@@ -616,29 +619,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Chapter Selection
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 359032305}
-        m_MethodName: UnlockLevel
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 359032305}
-        m_MethodName: UnlockCharacter
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Chapter 2
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -658,18 +639,6 @@ MonoBehaviour:
   mainCamera: {fileID: 359032299}
   loadingScreen: {fileID: 866947804}
   loadingBar: {fileID: 798866867}
---- !u!114 &359032305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 359032299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9700165c10860a648bdd1172c2b24b23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &479258014
 GameObject:
   m_ObjectHideFlags: 0

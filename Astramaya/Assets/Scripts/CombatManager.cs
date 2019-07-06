@@ -19,17 +19,20 @@ public class CombatManager : MonoBehaviour
     private int enemySpawned;
     private int dieCount;
     private int reward;
+    private int goldVariable;
+
+    public GameObject[] platforms;
 
     // Start is called before the first frame update
     void Start()
     {
+        difficulty = new LegacyManager().GetDifficulty();
         enemyToBeSpawned = 5 + (difficulty * (difficulty - 1));
         enemySpawned = 0;
         spawnDelay = 2f - (difficulty * 1.5f / 10);
         dieCount = 0;
 
-        reward = enemyToBeSpawned * 25;
-        rewardText.text = reward + "x";
+        platforms[CombatAgent.Instance.level].SetActive(true);
 
         StartCoroutine(SpawnEnemy());
     }
@@ -43,7 +46,7 @@ public class CombatManager : MonoBehaviour
         GameObject enemy = Instantiate(enemyVariant[randEnemy], spawnPoints[randSpawn].position, spawnPoints[randSpawn].rotation);
 
         Damagable enemyDamagable = enemy.GetComponent<Damagable>();
-        enemyDamagable.onDie.AddListener(CountDie);
+        enemyDamagable.onDie.AddListener(()=>CountDie(randEnemy));
 
         enemySpawned += 1;
 
@@ -56,11 +59,18 @@ public class CombatManager : MonoBehaviour
         }
     }
 
-    void CountDie() {
+    void CountDie(int enemyScore) {
         dieCount++;
 
+        goldVariable += enemyScore;
+
         if (dieCount >= enemyToBeSpawned) {
+
+            reward = (goldVariable * 17) + (enemySpawned * 5) + Random.Range(0, 10);
+            rewardText.text = reward + "x";
+
             onComplete.Invoke();
+
         }
     }
 

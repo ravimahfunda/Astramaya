@@ -16,7 +16,6 @@ public class DialogTrigger : MonoBehaviour
     public int arcaIndex;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
