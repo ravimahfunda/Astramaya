@@ -35,8 +35,6 @@ public class CombatAgent : MonoBehaviour
     public void OnBattleStart()
     {
         lm.SetCurrentHealth(player.GetComponent<Damagable>().currentHealth);
-        Debug.LogWarning(lm.GetCurrentHealth()+" Olo");
-        Debug.LogWarning(lm.GetMaxHealth() + " Olo");
 
         encounterScreen.SetActive(true);
         mainCamera.SetActive(false);

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d841aee4ad616304aa34477c88318798, type: 3}
   m_Name: Arca 1
   m_EditorClassIdentifier: 
-  name: Pangeran Masa Lalu
+  name: Pangeran Muda
   artwork: {fileID: 21300000, guid: f62925839f96d194db4de85fa633aea6, type: 3}
   description: Mundinglaya Di Kusumah merupakan seorang pangeran dari Kerajaan Pajajaran,
     keturunan dari Prabu Siliwangi dan Ibu Padmawati. Merupakan seorang yang sangat

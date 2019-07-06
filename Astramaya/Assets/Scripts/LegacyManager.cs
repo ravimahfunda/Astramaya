@@ -28,7 +28,7 @@ public class LegacyManager : MonoBehaviour
 
     public void CollectArca(int index) {
 
-        string prev = PlayerPrefs.GetString("ArcaCollected", "100000");
+        string prev = PlayerPrefs.GetString("ArcaCollected", "000000");
         StringBuilder builder = new StringBuilder(prev);
 
         builder.Remove(index, 1);
@@ -40,7 +40,7 @@ public class LegacyManager : MonoBehaviour
 
     public bool CheckArcaCollected(int index)
     {
-        string arcas = PlayerPrefs.GetString("ArcaCollected", "100000");
+        string arcas = PlayerPrefs.GetString("ArcaCollected", "000000");
         return arcas[index] == '1';
     }
 

@@ -27,10 +27,11 @@ public class LegacyAgent : MonoBehaviour
             potionText.text = "X " + potionCount;
 
         if (player == null) return;
-        Debug.LogWarning("Olo");
         playerHealth.maxHealth = lm.GetMaxHealth();
         playerHealth.SetHealth(lm.GetCurrentHealth());
 
+
+        player.GetComponent<Damager>().damage = lm.GetDamage();
         playerBehave.attackDelay = lm.GetAttackSpeed();
         playerBehave.maxArrowAmmo= lm.GetMaxArrow();
         playerBehave.ammoBar.maxValue = lm.GetMaxArrow();

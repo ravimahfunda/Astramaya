@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Combat Chapter 1.unity
     guid: ee987fd73eb679949a015f4d9cc3138d
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 925f3fbc5cba92e4da9f98bdff156b4a
   m_configObjects: {}

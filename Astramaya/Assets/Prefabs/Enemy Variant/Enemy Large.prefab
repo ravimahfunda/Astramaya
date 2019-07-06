@@ -128,12 +128,12 @@ PrefabInstance:
     - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.106927305
+      value: 0.04350543
       objectReference: {fileID: 0}
     - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.68322515
+      value: 0.81006896
       objectReference: {fileID: 0}
     - target: {fileID: 8632598922371002067, guid: ae09d619888f3e748a021d329241cf70,
         type: 3}
@@ -169,6 +169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: spotRange
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052973100105167628, guid: ae09d619888f3e748a021d329241cf70,
+        type: 3}
+      propertyPath: damage
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae09d619888f3e748a021d329241cf70, type: 3}
