@@ -30,6 +30,7 @@ public class CollectionHost : MonoBehaviour
     public void collected(string key) {
         int index = keyMap.IndexOf(key);
         collections[index].currentCount++;
+        collections[index].onCollect.Invoke();
 
         if (collections[index].currentCount >= collections[index].wantedCount) {
             collections[index].onAllCollected.Invoke();
@@ -45,4 +46,5 @@ public class CollectionKey {
     public int wantedCount;
     public int currentCount;
     public UnityEvent onAllCollected;
+    public UnityEvent onCollect;
 }

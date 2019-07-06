@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19de80fffc6c0df4cacbc688d41eee7f, type: 3}
+  m_Name: Dialog Arca 4
+  m_EditorClassIdentifier: 
+  charaters:
+  - {fileID: 11400000, guid: 38d8bf9208497224db8a6cfc1078a357, type: 2}
+  sequence:
+  - '#0'
+  - '*Cahaya harapan tak pergi dari hati, meski angin berhembus kencang*'
+  - Arca baru telah dikoleksi
+  - Buka gallery untuk membuka sejarah

@@ -1,7 +1,15 @@
 fileFormatVersion: 2
 guid: 8cd8207048d0afa499d359c65597d010
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: cecendet_0
+    21300002: cecendet_1
+    21300004: cecendet_2
+    21300006: cecendet_3
+    21300008: cecendet_4
+    21300010: cecendet_5
+    21300012: cecendet_6
+    21300014: cecendet_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -137,7 +145,167 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cecendet_0
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 246
+        width: 256
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af6656f310f31a4c8821cf344c20328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cecendet_1
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 1728
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9e573f708b1cd4385c4837b140c6d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cecendet_2
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 1728
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d8f0c1b786bca4c835696975ae5a66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cecendet_3
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 1728
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9605d3539d9994c92f59845b0e3a0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cecendet_4
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 1728
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499b4e9d420c2e74e829d88c2dada0d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cecendet_5
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 1728
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28367f4025046db4a90b75d1f30394bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cecendet_6
+      rect:
+        serializedVersion: 2
+        x: 10368
+        y: 0
+        width: 1728
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1f964458e79954b981c6ef9a2da1b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cecendet_7
+      rect:
+        serializedVersion: 2
+        x: 12096
+        y: 0
+        width: 1728
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f57644005fd64081a6a9bca62acdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

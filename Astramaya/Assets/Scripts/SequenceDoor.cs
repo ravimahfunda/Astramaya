@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class MinigameManager : MonoBehaviour
+public class SequenceDoor : MonoBehaviour
 {
-    private static MinigameManager _instance;
+    public int progress = -1;
+    public int toBeCompleted;
+    public UnityEvent[] onCompleted;
 
-    public static MinigameManager Instance { get { return _instance; } }
-    public int minigameIndex;
+    private static SequenceDoor _instance;
+
+    public static SequenceDoor Instance { get { return _instance; } }
 
     private void Awake()
     {
@@ -33,7 +37,8 @@ public class MinigameManager : MonoBehaviour
         
     }
 
-    public void SetIndex(int index) {
-        minigameIndex = index;
+    public void Completing() {
+        progress++;
+        onCompleted[progress].Invoke();
     }
 }
