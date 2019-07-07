@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19de80fffc6c0df4cacbc688d41eee7f, type: 3}
+  m_Name: Petunjuk Ubur Ubur
+  m_EditorClassIdentifier: 
+  charaters:
+  - {fileID: 11400000, guid: 69cf2ec9ead3b0447b9a1cd7fe02d71f, type: 2}
+  - {fileID: 11400000, guid: 3a8cb29565f14ac4199aac290b6d6455, type: 2}
+  sequence:
+  - '#0'
+  - Hai, apakah kau dapat membantu ku?
+  - '#1'
+  - Bzzzzzztt.....
+  - Bzzzzzzzzzzzzttt....
+  - Bzzzt.. bzzzztt....
+  - '#0'
+  - Apa?? Ada tanaman Cantigi baru tumbuh di sekitar sini??
+  - Dan tanaman itu dapat mengeluarkan ku??
+  - Wow menakjubkan, akhirnya aku bisa keluar
+  - Tapi berada dimana dia, tanaman biru bercahaya itu
+  - Oh iya.......Terima kasih atas bantuan mu
+  - '#1'
+  - Bzzt bzzt...

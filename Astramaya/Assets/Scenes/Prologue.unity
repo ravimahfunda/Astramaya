@@ -594,16 +594,19 @@ MonoBehaviour:
   artwork: {fileID: 2035235771}
   dialogs:
   - '#0'
-  - Pada jaman dahulu kala, lahirlah seorang putri kerajaan dari Kerajaan Pandjajaran.
-  - Putri ini tangguh dan gagah berani.
-  - Namun segala prestasi nya membuat saudara-saudaranya iri
+  - Pada jaman dahulu kala, hiduplah seorang putri kerajaan dari Kerajaan Pandjajaran,
+    putri pertama dari Prabu Siliwangi dan Ibu Padmawati.
+  - Putri ini tangguh dan gagah berani. Berhati lembut dan baik hati
+  - Tekad kuatnya untuk melindungi orang yang dia cintai mendorongnya untuk terus
+    menjadi lebih kuat
   - '#1'
-  - Demi menyatukan kerajaannnya yang kini terpecah belah.
-  - Sang raja memberikan sayembara kepada semua ksatria kerajaan untuk mendapatkan
-    pusaka legendaris.
+  - Suatu ketika, kerajaan Panjajaran dilanda kekeringan hingga timbul kekacauan.
+  - Astramaya ingat mengenai pusaka legendaris yang dapat menyelamatkan kerajaannya.
+    Namun sang raja melarangnya karna pusaka tersebut dijaga oleh raksasa
   - '#2'
-  - Namun hanya dia yang berani untuk mendapatkan pusaha Lalayang Salaka Domas itu.
-  - Hanya sang putri lah, Astramaya Di Kanaya.......
+  - Namun hal ini tak menggoyahkan tekad Astramaya, ia memaksa untuk berangkat demi
+    menyelamatkan rakyatnya
+  - Dimulailah perjalan sang putri...... Astramaya Di Kanaya.......
   images:
   - {fileID: 21300000, guid: c901ecd68cac0ab4886212d70797a70a, type: 3}
   - {fileID: 21300000, guid: 445cc81a51967da45b5a7ec50b71033d, type: 3}
@@ -1723,8 +1726,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -43.7, y: 13}
-  m_SizeDelta: {x: 590.6, y: 104.9}
+  m_AnchoredPosition: {x: -43.7, y: 0.000002861}
+  m_SizeDelta: {x: 590.6, y: 117.9}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1897558517
 MonoBehaviour:

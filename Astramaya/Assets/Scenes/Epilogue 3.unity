@@ -595,16 +595,22 @@ MonoBehaviour:
   artwork: {fileID: 2035235771}
   dialogs:
   - '#0'
-  - Kini sang putri meneruskan perjalannanya nan jauh
-  - Semua masih permulaan, mereka sang penjaga pusaka tidak akan memberikan pusaka
-    legendaris itu secara cuma cuma
+  - Akhirnya Astramaya dapat keluar dari dalam laut itu
   - '#1'
-  - Namun dilakukan demi perdamaian dan persatuan tanah sunda, demi itulah Astramaya
-    akan terus berjuang
-  - Akan kah semua ini menjadi sejarah?
+  - Saat di bawah laut, Astramaya menyadari betapa Indahnya dunia bawah laut.
+  - Hal ini membuatnya merasakan pengalaman yang tak terlupakan
+  - '*Semua keindahan ini akan ku jaga* ujarnya'
+  - '#2'
+  - Saat tiba di darat, Astramaya menemukan perahunya sedikit rusak
+  - Dengan bantuan rakyat sekitar ia memperbaiki perahunya
+  - '#3'
+  - Bergegas ia melanjutkan perjalanannya menuju Pulau Putri
+  - Demi mendapatkan Layangan Salaka Domas
   images:
-  - {fileID: 21300000, guid: 001b5bfc0d8d79347b62cb9fdb630fdb, type: 3}
-  - {fileID: 21300000, guid: f4672da51c9148d4080cfe0d8e7aa5ac, type: 3}
+  - {fileID: 21300000, guid: dd440f8aa4672d84b9975803b19ca656, type: 3}
+  - {fileID: 21300000, guid: d09676388ecfb644db1e46f8c0aefbf2, type: 3}
+  - {fileID: 21300000, guid: e54f49981705e6e48b126695eb0016a0, type: 3}
+  - {fileID: 21300000, guid: 445cc81a51967da45b5a7ec50b71033d, type: 3}
   onDone:
     m_PersistentCalls:
       m_Calls:

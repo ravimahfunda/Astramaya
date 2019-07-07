@@ -595,16 +595,28 @@ MonoBehaviour:
   artwork: {fileID: 2035235771}
   dialogs:
   - '#0'
-  - Kini sang putri meneruskan perjalannanya nan jauh
-  - Semua masih permulaan, mereka sang penjaga pusaka tidak akan memberikan pusaka
-    legendaris itu secara cuma cuma
+  - Astramaya melihat ke sekitar dan mendengar sesuatu yang berbahaya
+  - Nalurinya berkata bahwa dia harus berlindung, makhluk ini berbahaya
   - '#1'
-  - Namun dilakukan demi perdamaian dan persatuan tanah sunda, demi itulah Astramaya
-    akan terus berjuang
-  - Akan kah semua ini menjadi sejarah?
+  - Astramaya sembunyi di balik batu dan menahan nafasnya
+  - Hati nya tak tenang, sesosok kera putih raksasa muncul dan menggetarkan tanah
+  - Sempat ragu Astramaya bangkit dan melawan makhluk tersebut
+  - Merasa diganggu ketenangannya, makhluk itu mengamuk dan melompat ke segala arah
+  - '#2'
+  - Dengan kecerdikannya, Astramaya mengelabui makhluk tersebut hingga jatuh tersungkur
+    kedalam sebuah lubang besar
+  - '"Aku hanya ingin berbicara" ujar Astramaya. Makhluk itu terdiam menatap ke arah
+    mata Astramaya'
+  - Ia melihat ketulusan dalam hati Astramaya, hingga akhirnya ia tenang
+  - Makhluk itu bercerita kepada Astramaya tetang bagaimana hutan yang ia tinggali
+    dirusak oleh penduduk sekitar
+  - Astramaya mengerti dan bernjanji untuk memperbaiki hal itu. Memperbaiki kerjanaan
+    dengan menjaga bumi
+  - Dengan tekad baru, Astramaya melanjutkan perjalannya menuju hutan dalam
   images:
-  - {fileID: 21300000, guid: 001b5bfc0d8d79347b62cb9fdb630fdb, type: 3}
-  - {fileID: 21300000, guid: f4672da51c9148d4080cfe0d8e7aa5ac, type: 3}
+  - {fileID: 21300000, guid: 4d9da31e715f75c479fd0244648a2e7c, type: 3}
+  - {fileID: 21300000, guid: 6fa5ee61cac24574b8e2ce80f75f4d97, type: 3}
+  - {fileID: 21300000, guid: 4539de5348a874545b2d66040a51cd31, type: 3}
   onDone:
     m_PersistentCalls:
       m_Calls:

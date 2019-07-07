@@ -594,20 +594,19 @@ MonoBehaviour:
   artwork: {fileID: 2035235771}
   dialogs:
   - '#0'
-  - Pada jaman dahulu kala, lahirlah seorang putri kerajaan dari Kerajaan Pandjajaran.
-  - Putri ini tangguh dan gagah berani.
-  - Namun segala prestasi nya membuat saudara-saudaranya iri
+  - Saat memasuki hutan dalam, Astramaya mendengar bisikan-bisikan kecil
+  - '*Selamatkan mereka, selamatkan mereka....*'
+  - Bisikan tersebut berasal dari para peri malam dari hutan tersebut
   - '#1'
-  - Demi menyatukan kerajaannnya yang kini terpecah belah.
-  - Sang raja memberikan sayembara kepada semua ksatria kerajaan untuk mendapatkan
-    pusaka legendaris.
-  - '#2'
-  - Namun hanya dia yang berani untuk mendapatkan pusaha Lalayang Salaka Domas itu.
-  - Hanya sang putri lah, Astramaya Di Kanaya.......
+  - Peri tersebut menceritakan tentang pada kukang yang ditahan oleh burung hantu
+    jahat bernama Celepuk
+  - Mereka ditahan dalam sebuah rumah pohon yang dimantrai
+  - Para peri meminta Astramaya untuk menemukan rangkaian mantra yang dapat mengaktifkan
+    batu Cahaya pada rumah tersebut
+  - Mendengar hal itu Astramaya bergegas berangkat sebelum sesuatu yang buruk terjadi
   images:
-  - {fileID: 21300000, guid: c901ecd68cac0ab4886212d70797a70a, type: 3}
-  - {fileID: 21300000, guid: 445cc81a51967da45b5a7ec50b71033d, type: 3}
-  - {fileID: 21300000, guid: db1f4bf1748051b40a5e5b1cac4f9c56, type: 3}
+  - {fileID: 21300000, guid: dd3dc254b60674b4ea267e371ab81941, type: 3}
+  - {fileID: 21300000, guid: f9a2a72ca80c02d4d90a31e6b42b0f66, type: 3}
   onDone:
     m_PersistentCalls:
       m_Calls:

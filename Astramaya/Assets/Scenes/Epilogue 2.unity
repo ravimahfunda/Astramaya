@@ -595,16 +595,16 @@ MonoBehaviour:
   artwork: {fileID: 2035235771}
   dialogs:
   - '#0'
-  - Kini sang putri meneruskan perjalannanya nan jauh
-  - Semua masih permulaan, mereka sang penjaga pusaka tidak akan memberikan pusaka
-    legendaris itu secara cuma cuma
+  - Setelah berhasil membebaskan para kukang, Astramaya melanjutkan perjalannya dengan
+    perahu nya
+  - Para peri dan kukang itu berterimakasih atas kebaikannya Astramaya
   - '#1'
-  - Namun dilakukan demi perdamaian dan persatuan tanah sunda, demi itulah Astramaya
-    akan terus berjuang
-  - Akan kah semua ini menjadi sejarah?
+  - Langkah demi langkah Astramaya tumbuh menjadi putri yang bijaksana
+  - Rasa peduli kepada kerajaan nya bukan karna haus kekuasaan, namun berasal dari
+    hati nya yang lembut dan teguh
   images:
+  - {fileID: 21300000, guid: dd3dc254b60674b4ea267e371ab81941, type: 3}
   - {fileID: 21300000, guid: 001b5bfc0d8d79347b62cb9fdb630fdb, type: 3}
-  - {fileID: 21300000, guid: f4672da51c9148d4080cfe0d8e7aa5ac, type: 3}
   onDone:
     m_PersistentCalls:
       m_Calls:
@@ -631,7 +631,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 359032305}
-        m_MethodName: UnlockLevel
+        m_MethodName: UnlockCharacter
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -47,6 +47,13 @@ public class Damagable : MonoBehaviour
     }
 
     public void Heal(int amount) {
+        Debug.Log("CH: "+currentHealth);
+        Debug.Log("MH: "+maxHealth);
+        if (currentHealth >= maxHealth) {
+            Debug.Log("Full Bos");
+            return;
+        };
+
         currentHealth += amount;
 
         if (healthBar != null)

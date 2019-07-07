@@ -594,20 +594,23 @@ MonoBehaviour:
   artwork: {fileID: 2035235771}
   dialogs:
   - '#0'
-  - Pada jaman dahulu kala, lahirlah seorang putri kerajaan dari Kerajaan Pandjajaran.
-  - Putri ini tangguh dan gagah berani.
-  - Namun segala prestasi nya membuat saudara-saudaranya iri
+  - Astramaya melanjutkan perjalannya menuju pulau Putri
+  - Selama perjalanan ia memikirkan tentang keadaan rakyat dan keluarganya
   - '#1'
-  - Demi menyatukan kerajaannnya yang kini terpecah belah.
-  - Sang raja memberikan sayembara kepada semua ksatria kerajaan untuk mendapatkan
-    pusaka legendaris.
+  - Tiba-tiba muncul tentakel besar dihadapannya
+  - Makhluk ini menenggelamkan perahunya
   - '#2'
-  - Namun hanya dia yang berani untuk mendapatkan pusaha Lalayang Salaka Domas itu.
-  - Hanya sang putri lah, Astramaya Di Kanaya.......
+  - Tak sadar kan diri, Astramaya tenggelam ke laut dalam
+  - Besama perahunya ia tenggelam dalam perairan Sunda
+  - '#3'
+  - Saat terbangung, ia berada di dalam dunia bawah laut
+  - Kadar udara nya sungguh tipis dan Astramaya menyadari itu
+  - Ia harus segera mencari jalan keluar
   images:
   - {fileID: 21300000, guid: c901ecd68cac0ab4886212d70797a70a, type: 3}
-  - {fileID: 21300000, guid: 445cc81a51967da45b5a7ec50b71033d, type: 3}
-  - {fileID: 21300000, guid: db1f4bf1748051b40a5e5b1cac4f9c56, type: 3}
+  - {fileID: 21300000, guid: d290401ebaab2944ca2d527cc80a2f75, type: 3}
+  - {fileID: 21300000, guid: 07414358339de8e40b010ec74cfce4af, type: 3}
+  - {fileID: 21300000, guid: df0950c156fee774f97e7a9f8064e942, type: 3}
   onDone:
     m_PersistentCalls:
       m_Calls:
